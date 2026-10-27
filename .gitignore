@@ -114,6 +114,10 @@ ENV/
 env.bak/
 venv.bak/
 
+# Experiment runtime logs
+logs/
+
+
 # Spyder project settings
 .spyderproject
 .spyproject
