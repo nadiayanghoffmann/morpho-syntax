@@ -1,0 +1,651 @@
+Item,TestControl,StrucLevel,Spacing,Stim1,S1Length,Match,MismatchCol,Stim2,S2Length,GloveW1W2,UnigramFreqW1,UnigramFreqW2,NgramFreq,ClozePrW2,S1PTAN,S1PTAF,S1OTAN,S1OTAF,S2PTAN,S2PTAF,S2OTAN,S2OTAF
+1,Comp,Phrase,Space,sells books,11,Match,,sells books,11,0.3182547782,648139,8225416,12229,10.46862309,0,0,0,0,0,0,0,0
+1,Comp,Phrase,Nospace,sellsbooks,10,Mismatch,2,sellsnotes,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+1,List,Phrase,Space,pages words,11,Match,,pages words,11,0.3707163074,5114312,9728767,16229,18.54721599,0,0,0,0,0,0,0,0
+1,List,Phrase,Nospace,pageswords,10,Mismatch,2,pagesnotes,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+1,Comp,Compound,Space,book seller,11,Match,,book seller,11,0.2870820354,10000000,687294,3568,14.69335052,0,0,0,0,0,0,0,0
+1,Comp,Compound,Nospace,bookseller,10,Mismatch,1,noteseller,10,0,49035,0,0,0,0,0,0,0,0,0,0,0
+1,List,Compound,Space,tabs novels,11,Match,,tabs novels,11,0.05249967575,385469,853824,24884,22.32608931,0,0,0,0,0,0,0,0
+1,List,Compound,Nospace,tabsnovels,10,Mismatch,1,pensnovels,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+2,Comp,Phrase,Space,lays bricks,11,Match,,lays bricks,11,0.2032204832,291375,299528,13969,14.83780623,0,0,0,0,0,0,0,0
+2,Comp,Phrase,Nospace,laysbricks,10,Mismatch,1,buysbricks,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+2,List,Phrase,Space,gems stones,11,Match,,gems stones,11,0.602056379,342118,1052765,10334,18.71994074,0,0,0,0,0,0,0,0
+2,List,Phrase,Nospace,gemsstones,10,Mismatch,1,gapsstones,10,0,5,0,0,0,0,0,0,0,0,0,0,0
+2,Comp,Compound,Space,brick layer,11,Match,,brick layer,11,0.2420596275,874075,2278558,5834,12.06989805,0,0,0,0,0,0,0,0
+2,Comp,Compound,Nospace,bricklayer,10,Mismatch,2,brickbuyer,10,0,12533,0,0,0,0,0,0,0,0,0,0,0
+2,List,Compound,Space,rocks crags,11,Match,,rocks crags,11,0.4113922691,1260145,33592,8746,20.26857453,0,0,0,0,0,0,0,0
+2,List,Compound,Nospace,rockscrags,10,Mismatch,2,rocks gaps,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+3,Comp,Phrase,Space,drives trucks,13,Mismatch,2,drives teslas,13,0.3278486458,1432660,966814,5548,16.43077371,0,0,0,0,0,0,0,0
+3,Comp,Phrase,Nospace,drivestrucks,12,Match,,drivestrucks,12,0,0,0,0,0,0,0,0,0,0,0,0,0
+3,List,Phrase,Space,planes trains,13,Mismatch,2,planes wheels,13,0.4665019228,684519,1080085,4802,16.91709637,0,0,0,0,0,0,0,0
+3,List,Phrase,Nospace,planestrains,12,Match,,planestrains,12,0,3,0,0,0,0,0,0,0,0,0,0,0
+3,Comp,Compound,Space,truck driver,12,Mismatch,1,tesla driver,12,0.5200117224,2232107,3271380,9691,4.573463094,0,0,0,0,0,0,0,0
+3,Comp,Compound,Nospace,truckdriver,11,Match,,truckdriver,11,0,632,0,0,0,0,0,0,0,0,0,0,0
+3,List,Compound,Space,semis trains,12,Mismatch,1,autos trucks,12,0.2508953249,38726,1080085,12229,18.04214717,0,0,0,0,0,0,0,0
+3,List,Compound,Nospace,semistrains,11,Match,,semistrains,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+4,Comp,Phrase,Space,plays chess,11,Mismatch,1,loves chess,11,0.314199193,26776,620188,4802,16.7672087,0,0,0,0,0,0,0,0
+4,Comp,Phrase,Nospace,playschess,10,Match,,playschess,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+4,List,Phrase,Space,games cards,11,Mismatch,1,darts cards,11,0.4166699079,47637,33649,46,14.72669066,0,0,0,0,0,0,0,0
+4,List,Phrase,Nospace,gamescards,10,Match,,gamescards,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+4,Comp,Compound,Space,chess player,12,Mismatch,2,chess winner,12,0.4378672,620188,6504393,48,7.201769881,0,0,0,0,0,0,0,0
+4,Comp,Compound,Nospace,chessplayer,11,Match,,chessplayer,11,0,1192,0,0,0,0,0,0,0,0,0,0,0
+4,List,Compound,Space,cards points,12,Mismatch,2,cards jokers,12,0.2376992045,33649,31405,65,13.48028034,0,0,0,0,0,0,0,0
+4,List,Compound,Nospace,cardspieces,11,Match,,cardspieces,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,Comp,Phrase,Space,casts spells,12,Match,,casts spells,12,0.44930926,23137,28325,21282,15.56693416,0,0,0,0,0,0,0,0
+5,Comp,Phrase,Nospace,castsspells,11,Mismatch,2,castscharms,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,List,Phrase,Space,mages wishes,12,Match,,mages wishes,12,0.1187325272,34354,33311,89,16.59537221,0,0,0,0,0,0,0,0
+5,List,Phrase,Nospace,mageswishes,11,Mismatch,2,magesdreams,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,Comp,Compound,Space,spell caster,12,Match,,spell caster,12,0.3991960216,30003,34096,87,12.45417487,0,0,0,0,0,0,0,0
+5,Comp,Compound,Nospace,spellcaster,11,Mismatch,1,charmcaster,11,0,11546,0,0,0,0,0,0,0,0,0,0,0
+5,List,Compound,Space,hexes charms,12,Match,,hexes charms,12,0.302295663,30022,26172,158,22.27703355,0,0,0,0,0,0,0,0
+5,List,Compound,Nospace,hexescharms,11,Mismatch,1,hopescharms,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,Comp,Phrase,Space,digs graves,11,Match,,digs graves,11,0.252864679,23784,36451,184,18.46674532,0,0,0,0,0,0,0,0
+6,Comp,Phrase,Nospace,digsgraves,10,Mismatch,1,buysgraves,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,List,Phrase,Space,ribs skulls,11,Match,,ribs skulls,11,0.3024051561,311867,25482,149,18.98082637,0,0,0,0,0,0,0,0
+6,List,Phrase,Nospace,ribsskulls,10,Mismatch,1,jawsskulls,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,Comp,Compound,Space,grave digger,12,Match,,grave digger,12,0.2519639803,26176,48463,47,18.06626579,0,0,0,0,0,0,0,0
+6,Comp,Compound,Nospace,gravedigger,11,Mismatch,2,gravewasher,11,0,6604,0,0,0,0,0,0,0,0,0,0,0
+6,List,Compound,Space,bones hearts,12,Match,,bones hearts,12,0.4215468756,34358,41676,3568,15.85270534,0,0,0,0,0,0,0,0
+6,List,Compound,Nospace,boneshearts,11,Mismatch,2,bonesskulls,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+7,Comp,Phrase,Space,owns homes,10,Mismatch,2,owns bikes,10,0.2328681782,51767,36754,24,13.95584059,0,0,0,0,0,0,0,0
+7,Comp,Phrase,Nospace,ownshomes,9,Match,,ownshomes,9,0,0,0,0,0,0,0,0,0,0,0,0,0
+7,List,Phrase,Space,huts homes,10,Mismatch,2,huts bikes,10,0.3477164534,7141,36754,1409,14.32431789,0,0,0,0,0,0,0,0
+7,List,Phrase,Nospace,hutshomes,9,Match,,hutshomes,9,0,0,0,0,0,0,0,0,0,0,0,0,0
+7,Comp,Compound,Space,home owner,10,Mismatch,1,bike owner,10,0.4470275295,20380,29345,47,11.29749673,0,0,0,0,0,0,0,0
+7,Comp,Compound,Nospace,homeowner,9,Match,,homeowner,9,0,33440,0,0,0,0,0,0,0,0,0,0,0
+7,List,Compound,Space,huts sheds,10,Mismatch,1,bins sheds,10,0.4231954858,7141,32219,600,18.82869954,0,0,0,0,0,0,0,0
+7,List,Compound,Nospace,hutssheds,9,Match,,hutssheds,9,0,0,0,0,0,0,0,0,0,0,0,0,0
+8,Comp,Phrase,Space,licks boots,11,Mismatch,1,wipes boots,11,0.2008280646,24130,30837,151,16.99181786,0,0,0,0,0,0,0,0
+8,Comp,Phrase,Nospace,licksboots,10,Match,,licksboots,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+8,List,Phrase,Space,boots laces,11,Mismatch,1,shoes laces,11,0.476970285,30837,24038,3568,16.74645861,0,0,0,0,0,0,0,0
+8,List,Phrase,Nospace,bootslaces,10,Match,,bootslaces,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+8,Comp,Compound,Space,boot licker,11,Mismatch,2,boot shiner,11,0.1824637568,35151,3640,3568,27.28682309,0,0,0,0,0,0,0,0
+8,Comp,Compound,Nospace,bootlicker,10,Match,,bootlicker,10,0,1217,0,0,0,0,0,0,0,0,0,0,0
+8,List,Compound,Space,guns badges,11,Mismatch,2,guns rifles,11,0.3006279606,31374,35328,39,17.87069658,0,0,0,0,0,0,0,0
+8,List,Compound,Nospace,gunsbadges,10,Match,,gunsbadges,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+9,Comp,Phrase,Space,mows lawns,10,Match,,mows lawns,10,0.4246201334,4786,23117,1712,14.14645607,0,0,0,0,0,0,0,0
+9,Comp,Phrase,Nospace,mowslawns,9,Mismatch,2,mowsyards,9,0,0,0,0,0,0,0,0,0,0,0,0,0
+9,List,Phrase,Space,buds trees,10,Match,,buds trees,10,0.4139846256,27867,31863,2452,17.3443266,0,0,0,0,0,0,0,0
+9,List,Phrase,Nospace,budstrees,9,Mismatch,2,budshills,9,0,0,0,0,0,0,0,0,0,0,0,0,0
+9,Comp,Compound,Space,lawn mower,10,Match,,lawn mower,10,0.7291318792,32393,33690,13969,9.825609362,0,0,0,0,0,0,0,0
+9,Comp,Compound,Nospace,lawnmower,9,Mismatch,1,yardmower,9,0,25256,0,0,0,0,0,0,0,0,0,0,0
+9,List,Compound,Space,ants yards,10,Match,,ants yards,10,0.03962190908,33360,30744,90,18.34399254,0,0,0,0,0,0,0,0
+9,List,Compound,Nospace,antsyards,9,Mismatch,1,bugsyards,9,0,0,0,0,0,0,0,0,0,0,0,0,0
+10,Comp,Phrase,Space,fights fires,12,Match,,fights fires,12,0.3513991376,24882,29726,14760,16.97563123,0,0,0,0,0,0,0,0
+10,Comp,Phrase,Nospace,fightsfires,11,Mismatch,1,drownsfires,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+10,List,Phrase,Space,trucks hoses,12,Match,,trucks hoses,12,0.3472691555,966814,35472,48,21.45763463,0,0,0,0,0,0,0,0
+10,List,Phrase,Nospace,truckshoses,11,Mismatch,1,floodshoses,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+10,Comp,Compound,Space,fire fighter,12,Match,,fire fighter,12,0.31254762,34364,32510,64,12.03833,0,0,0,0,0,0,0,0
+10,Comp,Compound,Nospace,firefighter,11,Mismatch,2,firestealer,11,0,31683,0,0,0,0,0,0,0,0,0,0,0
+10,List,Compound,Space,hats jackets,12,Match,,hats jackets,12,0.6663406393,26541,28092,13882,19.73937688,0,0,0,0,0,0,0,0
+10,List,Compound,Nospace,hatsjackets,11,Mismatch,2,hatspockets,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+11,Comp,Phrase,Space,makes shoes,11,Mismatch,2,makes pipes,11,0.2527686691,30211,33163,36048,16.05271566,0,0,0,0,0,0,0,0
+11,Comp,Phrase,Nospace,makesshoes,10,Match,,makesshoes,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+11,List,Phrase,Space,nails palms,11,Mismatch,2,nails rings,11,0.2942043449,29158,28451,57,18.02667697,0,0,0,0,0,0,0,0
+11,List,Phrase,Nospace,nailspalms,10,Match,,nailspalms,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+11,Comp,Compound,Space,shoe maker,10,Mismatch,1,pipe maker,10,0.2669688678,34355,31827,6991,10.60880511,0,0,0,0,0,0,0,0
+11,Comp,Compound,Nospace,shoemaker,9,Match,,shoemaker,9,0,35034,0,0,0,0,0,0,0,0,0,0,0
+11,List,Compound,Space,toes hands,10,Mismatch,1,eyes hands,10,0.5670042699,24160,28372,18671,14.39960223,0,0,0,0,0,0,0,0
+11,List,Compound,Nospace,toeshands,9,Match,,toeshands,9,0,0,0,0,0,0,0,0,0,0,0,0,0
+12,Comp,Phrase,Space,builds houses,13,Mismatch,1,paints houses,13,0.2572251242,24382,29272,2452,13.75467296,0,0,0,0,0,0,0,0
+12,Comp,Phrase,Nospace,buildshouses,12,Match,,buildshouses,12,0,0,0,0,0,0,0,0,0,0,0,0,0
+12,List,Phrase,Space,homes gardens,13,Mismatch,1,sofas gardens,13,0.4372263856,36754,36607,6536,20.52535961,0,0,0,0,0,0,0,0
+12,List,Phrase,Nospace,homesgardens,12,Match,,homesgardens,12,0,0,0,0,0,0,0,0,0,0,0,0,0
+12,Comp,Compound,Space,house builder,13,Mismatch,2,house painter,13,0.3776022622,34354,34353,6536,15.56054767,0,0,0,0,0,0,0,0
+12,Comp,Compound,Nospace,housebuilder,12,Match,,housebuilder,12,0,3518,0,0,0,0,0,0,0,0,0,0,0
+12,List,Compound,Space,rooms couches,13,Mismatch,2,rooms studios,13,0.4376775616,30715,19715,8746,19.93024348,0,0,0,0,0,0,0,0
+12,List,Compound,Nospace,roomscouches,12,Match,,roomscouches,12,0,0,0,0,0,0,0,0,0,0,0,0,0
+13,Comp,Phrase,Space,wrecks homes,12,Match,,wrecks homes,12,0.2057983423,23555,36754,1598,17.69286243,0,0,0,0,0,0,0,0
+13,Comp,Phrase,Nospace,wreckshomes,11,Mismatch,2,wrecksfaces,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+13,List,Phrase,Space,alleys lamps,12,Match,,alleys lamps,12,0.1959645822,20418,29191,86,20.29308735,0,0,0,0,0,0,0,0
+13,List,Phrase,Nospace,alleyslamps,11,Mismatch,2,alleyspaths,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+13,Comp,Compound,Space,home wrecker,12,Match,,home wrecker,12,0.04795176967,20380,17049,6536,19.8708678,0,0,0,0,0,0,0,0
+13,Comp,Compound,Nospace,homewrecker,11,Mismatch,1,facewrecker,11,0,1960,0,0,0,0,0,0,0,0,0,0,0
+13,List,Compound,Space,huts bridges,12,Match,,huts bridges,12,0.3155948376,7141,32343,1409,20.60055046,0,0,0,0,0,0,0,0
+13,List,Compound,Nospace,hutsbridges,11,Mismatch,1,batsbridges,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+14,Comp,Phrase,Space,watches birds,13,Match,,watches birds,13,0.1544994642,26651,34683,29,17.18991007,0,0,0,0,0,0,0,0
+14,Comp,Phrase,Nospace,watchesbirds,12,Mismatch,1,poachesbirds,12,0,0,0,0,0,0,0,0,0,0,0,0,0
+14,List,Phrase,Space,cuckoos gulls,13,Match,,cuckoos gulls,13,0.4780980557,9649,37169,38,20.31912723,0,0,0,0,0,0,0,0
+14,List,Phrase,Nospace,cuckoosgulls,12,Mismatch,1,grousesgulls,12,0,0,0,0,0,0,0,0,0,0,0,0,0
+14,Comp,Compound,Space,bird watcher,12,Match,,bird watcher,12,0.3064339829,34364,34376,86,16.72586362,0,0,0,0,0,0,0,0
+14,Comp,Compound,Nospace,birdwatcher,11,Mismatch,2,birdpoacher,11,0,3989,0,0,0,0,0,0,0,0,0,0,0
+14,List,Compound,Space,cats pigeons,12,Match,,cats pigeons,12,0.4947052806,34676,27146,21282,20.6372246,0,0,0,0,0,0,0,0
+14,List,Compound,Nospace,catspigeons,11,Mismatch,2,catsmagpies,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+15,Comp,Phrase,Space,makes homes,11,Mismatch,2,makes wines,11,0.2067097273,30211,36754,36048,14.89899447,0,0,0,0,0,0,0,0
+15,Comp,Phrase,Nospace,makeshomes,10,Match,,makeshomes,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+15,List,Phrase,Space,sodas wines,11,Mismatch,2,sodas beers,11,0.3549237754,21602,35006,7289,17.96366108,0,0,0,0,0,0,0,0
+15,List,Phrase,Nospace,sodaswines,10,Match,,sodaswines,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+15,Comp,Compound,Space,home maker,10,Mismatch,1,wine maker,10,0.2469467922,20380,31827,6536,14.85456969,0,0,0,0,0,0,0,0
+15,Comp,Compound,Nospace,homemaker,9,Match,,homemaker,9,0,24851,0,0,0,0,0,0,0,0,0,0,0
+15,List,Compound,Space,pops sodas,10,Mismatch,1,ales sodas,10,0.292629817,32871,21602,64,21.16211401,0,0,0,0,0,0,0,0
+15,List,Compound,Nospace,popssodas,9,Match,,popssodas,9,0,0,0,0,0,0,0,0,0,0,0,0,0
+16,Comp,Phrase,Space,breaks hearts,13,Mismatch,1,steals hearts,13,0.1877269465,25499,41676,5834,17.16858808,0,0,0,0,0,0,0,0
+16,Comp,Phrase,Nospace,breakshearts,12,Match,,breakshearts,12,0,0,0,0,0,0,0,0,0,0,0,0,0
+16,List,Phrase,Space,ghosts ghouls,13,Mismatch,1,wolves ghouls,13,0.6975227934,31868,31838,37158,16.95198931,0,0,0,0,0,0,0,0
+16,List,Phrase,Nospace,ghostsghouls,12,Match,,ghostsghouls,12,0,0,0,0,0,0,0,0,0,0,0,0,0
+16,Comp,Compound,Space,heart breaker,13,Mismatch,2,heart stealer,13,0.1571595362,34700,31305,21976,15.63542162,0,0,0,0,0,0,0,0
+16,Comp,Compound,Nospace,heartbreaker,12,Match,,heartbreaker,12,0,13740,0,0,0,0,0,0,0,0,0,0,0
+16,List,Compound,Space,souls spirits,13,Mismatch,2,souls beliefs,13,0.6445639499,29597,30317,1257,17.66543405,0,0,0,0,0,0,0,0
+16,List,Compound,Nospace,soulsspirits,12,Match,,soulsspirits,12,0,0,0,0,0,0,0,0,0,0,0,0,0
+17,Comp,Phrase,Space,wins bread,10,Match,,wins bread,10,0.07228541988,28311,34357,59,20.27697908,0,0,0,0,0,0,0,0
+17,Comp,Phrase,Nospace,winsbread,9,Mismatch,2,winsstuff,9,0,0,0,0,0,0,0,0,0,0,0,0,0
+17,List,Phrase,Space,buns chips,10,Match,,buns chips,10,0.3877156801,27726,36863,574,17.22331137,0,0,0,0,0,0,0,0
+17,List,Phrase,Nospace,bunschips,9,Mismatch,2,bunsrolls,9,0,0,0,0,0,0,0,0,0,0,0,0,0
+17,Comp,Compound,Space,bread winner,12,Match,,bread winner,12,0.1102104736,34357,34359,5834,14.93248099,0,0,0,0,0,0,0,0
+17,Comp,Compound,Nospace,breadwinner,11,Mismatch,1,doughwinner,11,0,18255,0,0,0,0,0,0,0,0,0,0,0
+17,List,Compound,Space,faces mouths,12,Match,,faces mouths,12,0.4338473487,26692,20974,26,21.32279668,0,0,0,0,0,0,0,0
+17,List,Compound,Nospace,facesmouths,11,Mismatch,1,kneesmouths,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+18,Comp,Phrase,Space,counts beans,12,Match,,counts beans,12,0.1148023001,26892,30828,41,18.92958505,0,0,0,0,0,0,0,0
+18,Comp,Phrase,Nospace,countsbeans,11,Mismatch,1,countsdimes,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+18,List,Phrase,Space,apples kiwis,12,Match,,apples kiwis,12,0.5564482819,30510,28322,192,20.44546847,0,0,0,0,0,0,0,0
+18,List,Phrase,Nospace,appleskiwis,11,Mismatch,1,bagelskiwis,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+18,Comp,Compound,Space,bean counter,12,Match,,bean counter,12,0.1873011428,34350,28223,10170,14.17250587,0,0,0,0,0,0,0,0
+18,Comp,Compound,Nospace,beancounter,11,Mismatch,2,dimecounter,11,0,519,0,0,0,0,0,0,0,0,0,0,0
+18,List,Compound,Space,eggs noodles,12,Match,,eggs noodles,12,0.5114439063,31193,29806,248,17.07809842,0,0,0,0,0,0,0,0
+18,List,Compound,Nospace,eggsnoodles,11,Mismatch,2,eggsgravies,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+19,Comp,Phrase,Space,keeps shops,11,Mismatch,2,keeps homes,11,0.1534013633,24462,35001,29,17.58058171,0,0,0,0,0,0,0,0
+19,Comp,Phrase,Nospace,keepsshops,10,Match,,keepsshops,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+19,List,Phrase,Space,hats khakis,11,Mismatch,2,hats chairs,11,0.3564935864,26541,11546,13882,25.17165785,0,0,0,0,0,0,0,0
+19,List,Phrase,Nospace,hatskhakis,10,Match,,hatskhakis,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+19,Comp,Compound,Space,shop keeper,11,Mismatch,1,home keeper,11,0.1874608189,35588,43227,6991,14.81162725,0,0,0,0,0,0,0,0
+19,Comp,Compound,Nospace,shopkeeper,10,Match,,shopkeeper,10,0,22453,0,0,0,0,0,0,0,0,0,0,0
+19,List,Compound,Space,bags purses,11,Mismatch,1,kits purses,11,0.7102877504,36922,23797,22451,17.78319988,0,0,0,0,0,0,0,0
+19,List,Compound,Nospace,bagspurses,10,Match,,bagspurses,10,0,1,0,0,0,0,0,0,0,0,0,0,0
+20,Comp,Phrase,Space,breaks rules,12,Mismatch,1,knocks rules,12,0.331634261,25499,45542,5834,14.71221044,0,0,0,0,0,0,0,0
+20,Comp,Phrase,Nospace,breaksrules,11,Match,,breaksrules,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+20,List,Phrase,Space,habits norms,12,Mismatch,1,judges norms,12,0.4475610843,24954,25961,13882,17.01188431,0,0,0,0,0,0,0,0
+20,List,Phrase,Nospace,habitsnorms,11,Match,,habitsnorms,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+20,Comp,Compound,Space,rule breaker,12,Mismatch,2,rule knocker,12,0.178859282,35397,31305,16279,15.76864586,0,0,0,0,0,0,0,0
+20,Comp,Compound,Nospace,rulebreaker,11,Match,,rulebreaker,11,0,254,0,0,0,0,0,0,0,0,0,0,0
+20,List,Compound,Space,laws prisons,12,Mismatch,2,laws thieves,12,0.3670438498,32742,31336,13969,20.39709219,0,0,0,0,0,0,0,0
+20,List,Compound,Nospace,lawsprisons,11,Match,,lawsprisons,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+21,Comp,Phrase,Space,holds shares,12,Match,,holds shares,12,0.387620301,26014,37631,6536,14.95540975,0,0,0,0,0,0,0,0
+21,Comp,Phrase,Nospace,holdsshares,11,Mismatch,2,holdsstakes,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+21,List,Phrase,Space,suits bosses,12,Match,,suits bosses,12,0.2613136471,32155,45700,23,17.4012245,0,0,0,0,0,0,0,0
+21,List,Phrase,Nospace,suitsbosses,11,Mismatch,2,suitsnurses,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+21,Comp,Compound,Space,share holder,12,Match,,share holder,12,0.1623988759,32674,33246,30,15.90083482,0,0,0,0,0,0,0,0
+21,Comp,Compound,Nospace,shareholder,11,Mismatch,1,stakeholder,11,0,29628,0,0,0,0,0,0,0,0,0,0,0
+21,List,Compound,Space,bonds stocks,12,Match,,bonds stocks,12,0.4772224172,32112,33613,3568,14.45689408,0,0,0,0,0,0,0,0
+21,List,Compound,Nospace,bondsstocks,11,Mismatch,1,postsstocks,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+22,Comp,Phrase,Space,makes watches,13,Match,,makes watches,13,0.2948056539,30211,26651,36048,19.5981896,0,0,0,0,0,0,0,0
+22,Comp,Phrase,Nospace,makeswatches,12,Mismatch,1,saveswatches,12,0,0,0,0,0,0,0,0,0,0,0,0,0
+22,List,Phrase,Space,hours minutes,13,Match,,hours minutes,13,0.7375915485,33311,39059,6536,12.24250232,0,0,0,0,0,0,0,0
+22,List,Phrase,Nospace,hoursminutes,12,Mismatch,1,handsminutes,12,0,5,0,0,0,0,0,0,0,0,0,0,0
+22,Comp,Compound,Space,watch maker,11,Match,,watch maker,11,0.2062985221,6790660,31827,15946,16.11743843,0,0,0,0,0,0,0,0
+22,Comp,Compound,Nospace,watchmaker,10,Mismatch,2,watchsaver,10,0,20775,0,0,0,0,0,0,0,0,0,0,0
+22,List,Compound,Space,years coins,11,Match,,years coins,11,0.1664381625,27912,853699,2288,20.64399887,0,0,0,0,0,0,0,0
+22,List,Compound,Nospace,yearscoins,10,Mismatch,2,yearsdimes,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+23,Comp,Phrase,Space,saves lives,11,Mismatch,2,saves coins,11,0.335992659,25698,34457,84639,13.10235376,0,0,0,0,0,0,0,0
+23,Comp,Phrase,Nospace,saveslives,10,Match,,saveslives,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+23,List,Phrase,Space,idols stars,11,Mismatch,2,idols icons,11,0.3037672373,24911,32965,184,16.76772958,0,0,0,0,0,0,0,0
+23,List,Phrase,Nospace,idolsstars,10,Match,,idolsstars,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+23,Comp,Compound,Space,life saver,10,Mismatch,1,time saver,10,0.2356367604,32611,34112,13905,16.5592651,0,0,0,0,0,0,0,0
+23,Comp,Compound,Nospace,lifesaver,9,Match,,lifesaver,9,0,28295,0,0,0,0,0,0,0,0,0,0,0
+23,List,Compound,Space,cops idols,10,Mismatch,1,cars idols,10,0.1399287512,31415,24911,12073,21.40494283,0,0,0,0,0,0,0,0
+23,List,Compound,Nospace,copsidols,9,Match,,copsidols,9,0,0,0,0,0,0,0,0,0,0,0,0,0
+24,Comp,Phrase,Space,finds paths,11,Mismatch,1,walks paths,11,0.2524201078,25559,27137,14760,14.89511221,0,0,0,0,0,0,0,0
+24,Comp,Phrase,Nospace,findspaths,10,Match,,findspaths,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+24,List,Phrase,Space,paths roads,11,Mismatch,1,lanes roads,11,0.5651063219,27137,30360,16229,16.29291971,0,0,0,0,0,0,0,0
+24,List,Phrase,Nospace,pathsroads,10,Match,,pathsroads,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+24,Comp,Compound,Space,path finder,11,Mismatch,2,path walker,11,0.1569735706,30434,34150,16229,18.33326171,0,0,0,0,0,0,0,0
+24,Comp,Compound,Nospace,pathfinder,10,Match,,pathfinder,10,0,31086,0,0,0,0,0,0,0,0,0,0,0
+24,List,Compound,Space,jeeps roads,11,Mismatch,2,jeeps paths,11,0.3567023366,34350,30360,37,15.57414208,0,0,0,0,0,0,0,0
+24,List,Compound,Nospace,jeepsroads,10,Match,,jeepsroads,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+25,Comp,Phrase,Space,writes copy,11,Match,,writes copy,11,0.2414275681,26930,30078,3347,13.22406337,0,0,0,0,0,0,0,0
+25,Comp,Phrase,Nospace,writescopy,10,Mismatch,2,writesgame,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+25,List,Phrase,Space,papers maps,11,Match,,papers maps,11,0.2659182878,34271,34861,16229,18.12854104,0,0,0,0,0,0,0,0
+25,List,Phrase,Nospace,papersmaps,10,Mismatch,2,paperspens,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+25,Comp,Compound,Space,copy writer,11,Match,,copy writer,11,0.3151497891,30078,30197,12073,14.88197122,0,0,0,0,0,0,0,0
+25,Comp,Compound,Nospace,copywriter,10,Mismatch,1,gamewriter,10,0,28387,0,0,0,0,0,0,0,0,0,0,0
+25,List,Compound,Space,pens papers,11,Match,,pens papers,11,0.3351834097,26403,34271,7266,18.63826246,0,0,0,0,0,0,0,0
+25,List,Compound,Nospace,penspapers,10,Mismatch,1,macspapers,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+26,Comp,Phrase,Space,chases storms,13,Match,,chases storms,13,0.3098420036,20677,27836,10616,16.53859232,0,0,0,0,0,0,0,0
+26,Comp,Phrase,Nospace,chasesstorms,12,Mismatch,1,shakesstorms,12,0,0,0,0,0,0,0,0,0,0,0,0,0
+26,List,Phrase,Space,clouds nights,13,Match,,clouds nights,13,0.256079302,57087,27113,5621,19.92521281,0,0,0,0,0,0,0,0
+26,List,Phrase,Nospace,cloudsnights,12,Mismatch,1,stormsnights,12,0,0,0,0,0,0,0,0,0,0,0,0,0
+26,Comp,Compound,Space,storm chaser,12,Match,,storm chaser,12,0.3053075764,34357,38266,19213,17.15994832,0,0,0,0,0,0,0,0
+26,Comp,Compound,Nospace,stormchaser,11,Mismatch,2,stormshaker,11,0,634,0,0,0,0,0,0,0,0,0,0,0
+26,List,Compound,Space,mists clouds,12,Match,,mists clouds,12,0.5697462607,38143,57087,16700,15.25144102,0,0,0,0,0,0,0,0
+26,List,Compound,Nospace,mistsclouds,11,Mismatch,2,mistscracks,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+27,Comp,Phrase,Space,seeks truth,11,Mismatch,2,seeks faith,11,0.3250633945,26242,33707,12229,9.14946731,0,0,0,0,0,0,0,0
+27,Comp,Phrase,Nospace,seekstruth,10,Match,,seekstruth,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+27,List,Phrase,Space,hymns books,11,Mismatch,2,hymns tomes,11,0.3030467487,30887,8225416,49,16.28013607,0,0,0,0,0,0,0,0
+27,List,Phrase,Nospace,hymnsbooks,10,Match,,hymnsbooks,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+27,Comp,Compound,Space,truth seeker,12,Mismatch,1,faith seeker,12,0.325117703,33707,31049,9691,15.89545742,0,0,0,0,0,0,0,0
+27,Comp,Compound,Nospace,truthseeker,11,Match,,truthseeker,11,0,2739,0,0,0,0,0,0,0,0,0,0,0
+27,List,Compound,Space,hymns bibles,12,Mismatch,1,tomes bibles,12,0.4302681678,30887,28913,1527,21.33234678,0,0,0,0,0,0,0,0
+27,List,Compound,Nospace,hymnsbibles,11,Match,,hymnsbibles,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+28,Comp,Phrase,Space,blows whistles,14,Mismatch,1,plays whistles,14,0.3845388432,22603,21693,5127,15.80588473,0,0,0,0,0,0,0,0
+28,Comp,Phrase,Nospace,blowswhistles,13,Match,,blowswhistles,13,0,0,0,0,0,0,0,0,0,0,0,0,0
+28,List,Phrase,Space,flutes violins,14,Mismatch,1,snares violins,14,0.6602700231,32441,25129,42,17.00002518,0,0,0,0,0,0,0,0
+28,List,Phrase,Nospace,flutesviolins,13,Match,,flutesviolins,13,0,0,0,0,0,0,0,0,0,0,0,0,0
+28,Comp,Compound,Space,whistle blower,14,Mismatch,2,whistle guitar,14,0.3382109418,25376,30846,11015,5.870928263,0,0,0,0,0,0,0,0
+28,Comp,Compound,Nospace,whistleblower,13,Match,,whistleblower,13,0,32258,0,0,0,0,0,0,0,0,0,0,0
+28,List,Compound,Space,violins lyrics,14,Mismatch,2,violins bongos,14,0.1478402018,25129,24799,71,16.22104935,0,0,0,0,0,0,0,0
+28,List,Compound,Nospace,violinslyrics,13,Match,,violinslyrics,13,0,0,0,0,0,0,0,0,0,0,0,0,0
+29,Comp,Phrase,Space,catches dreams,14,Match,,catches dreams,14,0.2474895282,22845,28610,21282,17.18307917,0,0,0,0,0,0,0,0
+29,Comp,Phrase,Nospace,catchesdreams,13,Mismatch,2,catcheswishes,13,0,0,0,0,0,0,0,0,0,0,0,0,0
+29,List,Phrase,Space,pillows sheets,14,Match,,pillows sheets,14,0.4910190489,24456,37148,412,16.22442359,0,0,0,0,0,0,0,0
+29,List,Phrase,Nospace,pillowssheets,13,Mismatch,2,pillowsduvets,13,0,0,0,0,0,0,0,0,0,0,0,0,0
+29,Comp,Compound,Space,dream catcher,13,Match,,dream catcher,13,0.1855185084,34351,31011,5548,15.58684333,0,0,0,0,0,0,0,0
+29,Comp,Compound,Nospace,dreamcatcher,12,Mismatch,1,dreamwatcher,12,0,7533,0,0,0,0,0,0,0,0,0,0,0
+29,List,Compound,Space,lamps pillows,13,Match,,lamps pillows,13,0.408983192,29191,24456,13969,20.68939224,0,0,0,0,0,0,0,0
+29,List,Compound,Nospace,lampspillows,12,Mismatch,1,coatspillows,12,0,0,0,0,0,0,0,0,0,0,0,0,0
+30,Comp,Phrase,Space,sets trends,11,Match,,sets trends,11,0.2642975691,27253,31084,12229,16.99241905,0,0,0,0,0,0,0,0
+30,Comp,Phrase,Nospace,setstrends,10,Mismatch,1,doestrends,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+30,List,Phrase,Space,apps shirts,11,Match,,apps shirts,11,0.05790190382,33092,25442,44737,22.40902775,0,0,0,0,0,0,0,0
+30,List,Phrase,Nospace,appsshirts,10,Mismatch,1,picsshirts,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+30,Comp,Compound,Space,trend setter,12,Match,,trend setter,12,0.1632802449,26977,50321,9691,16.27994814,0,0,0,0,0,0,0,0
+30,Comp,Compound,Nospace,trendsetter,11,Mismatch,2,trendwanter,11,0,10431,0,0,0,0,0,0,0,0,0,0,0
+30,List,Compound,Space,pants shirts,12,Match,,pants shirts,12,0.7231360567,25923,25442,16229,13.78582635,0,0,0,0,0,0,0,0
+30,List,Compound,Nospace,pantsshirts,11,Mismatch,2,pantsphones,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+31,Comp,Phrase,Space,bends rules,11,Mismatch,2,bends norms,11,0.1049886826,22603,45542,1907,12.54290338,0,0,0,0,0,0,0,0
+31,Comp,Phrase,Nospace,bendsrules,10,Match,,bendsrules,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+31,List,Phrase,Space,cases rules,11,Mismatch,2,cases jails,11,0.3341797929,33450,45542,21282,15.21898228,0,0,0,0,0,0,0,0
+31,List,Phrase,Nospace,casesrules,10,Match,,casesrules,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+31,Comp,Compound,Space,rule bender,11,Mismatch,1,norm bender,11,0.05275582861,35397,33652,93,23.74676935,0,0,0,0,0,0,0,0
+31,Comp,Compound,Nospace,rulebender,10,Match,,rulebender,10,0,23,0,0,0,0,0,0,0,0,0,0,0
+31,List,Compound,Space,laws jurors,11,Mismatch,1,wigs jurors,11,0.2114902659,32742,30780,13969,19.30165695,0,0,0,0,0,0,0,0
+31,List,Compound,Nospace,lawsjurors,10,Match,,lawsjurors,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+32,Comp,Phrase,Space,reads minds,11,Mismatch,1,sings minds,11,0.160318427,26252,37833,62,19.61235085,0,0,0,0,0,0,0,0
+32,Comp,Phrase,Nospace,readsminds,10,Match,,readsminds,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+32,List,Phrase,Space,stars minds,11,Mismatch,1,nose tracks,11,0.2426302738,32965,37833,19213,18.97692425,0,0,0,0,0,0,0,0
+32,List,Phrase,Nospace,starsminds,10,Match,,starsminds,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+32,Comp,Compound,Space,mind reader,11,Mismatch,2,mind singer,11,0.4138616127,29681,33399,555,15.16954731,0,0,0,0,0,0,0,0
+32,Comp,Compound,Nospace,mindreader,10,Match,,mindreader,10,0,1192,0,0,0,0,0,0,0,0,0,0,0
+32,List,Compound,Space,eyes brains,11,Mismatch,2,eyes skulls,11,0.3727270061,31682,25371,924,19.81759527,0,0,0,0,0,0,0,0
+32,List,Compound,Nospace,eyesbrains,10,Match,,eyesbrains,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+33,Comp,Phrase,Space,makes tastes,12,Match,,makes tastes,12,0.4434639987,30211,23263,36048,18.49822193,0,0,0,0,0,0,0,0
+33,Comp,Phrase,Nospace,makestastes,11,Mismatch,2,makessweets,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+33,List,Phrase,Space,sodas sweets,12,Match,,sodas sweets,12,0.6056775747,21602,24956,7289,18.22310998,0,0,0,0,0,0,0,0
+33,List,Phrase,Nospace,sodassweets,11,Mismatch,2,sodassugars,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+33,Comp,Compound,Space,taste maker,11,Match,,taste maker,11,0.2229871841,27359,31827,24884,15.78685313,0,0,0,0,0,0,0,0
+33,Comp,Compound,Nospace,tastemaker,10,Mismatch,1,candymaker,10,0,4754,0,0,0,0,0,0,0,0,0,0,0
+33,List,Compound,Space,sodas beers,11,Match,,sodas beers,11,0.5559247933,21602,27982,7289,17.39783241,0,0,0,0,0,0,0,0
+33,List,Compound,Nospace,sodasbeers,10,Mismatch,1,winesbeers,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+34,Comp,Phrase,Space,pleases crowds,14,Match,,pleases crowds,14,0.2116674906,20037,34870,4802,16.46606226,0,0,0,0,0,0,0,0
+34,Comp,Phrase,Nospace,pleasescrowds,13,Mismatch,1,changescrowds,13,0,0,0,0,0,0,0,0,0,0,0,0,0
+34,List,Phrase,Space,critics crowds,14,Match,,critics crowds,14,0.3595475675,30774,34870,27,21.24010021,0,0,0,0,0,0,0,0
+34,List,Phrase,Nospace,criticscrowds,13,Mismatch,1,friendscrowds,13,0,0,0,0,0,0,0,0,0,0,0,0,0
+34,Comp,Compound,Space,crowd pleaser,13,Match,,crowd pleaser,13,0.3406972101,28020,18545,6857,13.24301555,0,0,0,0,0,0,0,0
+34,Comp,Compound,Nospace,crowdpleaser,12,Mismatch,2,crowdcheerer,12,0,965,0,0,0,0,0,0,0,0,0,0,0
+34,List,Compound,Space,teams players,13,Match,,teams players,13,0.6400174939,33672,34376,16835,11.78167779,0,0,0,0,0,0,0,0
+34,List,Compound,Nospace,teamsplayers,12,Mismatch,2,teamsfriends,12,0,0,0,0,0,0,0,0,0,0,0,0,0
+35,Comp,Phrase,Space,carves wood,11,Mismatch,2,carves soap,11,0.2117920962,17795,34353,21282,10.17900694,0,0,0,0,0,0,0,0
+35,Comp,Phrase,Nospace,carveswood,10,Match,,carveswood,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+35,List,Phrase,Space,bushes ants,11,Mismatch,2,bushes tree,11,0.4297377135,34364,33360,2452,19.86127692,0,0,0,0,0,0,0,0
+35,List,Phrase,Nospace,bushesants,10,Match,,bushesants,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+35,Comp,Compound,Space,wood carver,11,Mismatch,1,iron carver,11,0.3475790373,34353,31160,2123,19.94005736,0,0,0,0,0,0,0,0
+35,Comp,Compound,Nospace,woodcarver,10,Match,,woodcarver,10,0,3165,0,0,0,0,0,0,0,0,0,0,0
+35,List,Compound,Space,ants bushes,11,Mismatch,1,tree bushes,11,0.4297377135,33360,34364,41772,21.33954302,0,0,0,0,0,0,0,0
+35,List,Compound,Nospace,antsbushes,10,Match,,antsbushes,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+36,Comp,Phrase,Space,blazes trails,13,Mismatch,1,drives trails,13,0.3009033514,22208,33477,35,15.69537273,0,0,0,0,0,0,0,0
+36,Comp,Phrase,Nospace,blazestrails,12,Match,,blazestrails,12,0,0,0,0,0,0,0,0,0,0,0,0,0
+36,List,Phrase,Space,trails cliffs,13,Mismatch,1,cabins cliffs,13,0.4621726059,33477,29276,48,21.64276042,0,0,0,0,0,0,0,0
+36,List,Phrase,Nospace,trailscliffs,12,Match,,trailscliffs,12,0,0,0,0,0,0,0,0,0,0,0,0,0
+36,Comp,Compound,Space,trail blazer,12,Mismatch,2,trail driver,12,0.135580882,30017,32329,9691,15.31528067,0,0,0,0,0,0,0,0
+36,Comp,Compound,Nospace,trailblazer,11,Match,,trailblazer,11,0,34357,0,0,0,0,0,0,0,0,0,0,0
+36,List,Compound,Space,roads trails,12,Mismatch,2,roads cliffs,12,0.6291135148,30360,33477,8746,16.31547113,0,0,0,0,0,0,0,0
+36,List,Compound,Nospace,roadstrails,11,Match,,roadstrails,11,0,1,0,0,0,0,0,0,0,0,0,0,0
+37,Comp,Phrase,Space,blows snow,10,Match,,blows snow,10,0.3645627553,22603,2531525,5127,14.81868205,0,0,0,0,0,0,0,0
+37,Comp,Phrase,Nospace,blowssnow,9,Mismatch,2,blowsnose,9,0,0,0,0,0,0,0,0,0,0,0,0,0
+37,List,Phrase,Space,dusks suns,10,Match,,dusks suns,10,0.2262146934,556,35025,54,22.22841561,0,0,0,0,0,0,0,0
+37,List,Phrase,Nospace,duskssuns,9,Mismatch,2,dusksdays,9,0,0,0,0,0,0,0,0,0,0,0,0,0
+37,Comp,Compound,Space,snow blower,11,Match,,snow blower,11,0.3271371319,2531525,30846,6305,15.11719982,0,0,0,0,0,0,0,0
+37,Comp,Compound,Nospace,snowblower,10,Mismatch,1,noseblower,10,0,4378,0,0,0,0,0,0,0,0,0,0,0
+37,List,Compound,Space,days clouds,11,Match,,days clouds,11,0.2289287441,31386,57087,66,21.8343549,0,0,0,0,0,0,0,0
+37,List,Compound,Nospace,daysclouds,10,Mismatch,1,icesclouds,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+38,Comp,Phrase,Space,keeps time,10,Match,,keeps time,10,0.4379615311,24462,38836,4078,10.96696624,0,0,0,0,0,0,0,0
+38,Comp,Phrase,Nospace,keepstime,9,Mismatch,1,losestime,9,0,0,0,0,0,0,0,0,0,0,0,0,0
+38,List,Phrase,Space,years days,10,Match,,years days,10,0.7003569931,27912,31386,2288,14.49436644,0,0,0,0,0,0,0,0
+38,List,Phrase,Nospace,yearsdays,9,Mismatch,1,weeksdays,9,0,1,0,0,0,0,0,0,0,0,0,0,0
+38,Comp,Compound,Space,time keeper,11,Match,,time keeper,11,0.2162997414,38836,43227,200,15.39746508,0,0,0,0,0,0,0,0
+38,Comp,Compound,Nospace,timekeeper,10,Mismatch,2,timewaster,10,0,12141,0,0,0,0,0,0,0,0,0,0,0
+38,List,Compound,Space,days nights,11,Match,,days nights,11,0.5551838946,31386,27113,18667,14.91110265,0,0,0,0,0,0,0,0
+38,List,Compound,Nospace,daysnights,10,Mismatch,2,daysmonths,10,0,4,0,0,0,0,0,0,0,0,0,0,0
+39,Comp,Phrase,Space,seeks thrills,13,Mismatch,2,seeks horrors,13,0.1347946411,26242,21254,12229,17.78578329,0,0,0,0,0,0,0,0
+39,Comp,Phrase,Nospace,seeksthrills,12,Match,,seeksthrills,12,0,0,0,0,0,0,0,0,0,0,0,0,0
+39,List,Phrase,Space,malls taverns,13,Mismatch,2,malls dresses,13,0.4140071691,32956,22124,36048,23.14822877,0,0,0,0,0,0,0,0
+39,List,Phrase,Nospace,mallstaverns,12,Match,,mallstaverns,12,0,0,0,0,0,0,0,0,0,0,0,0,0
+39,Comp,Compound,Space,thrill seeker,13,Mismatch,1,horror seeker,13,0.2882444968,22714,31049,142,12.02169109,0,0,0,0,0,0,0,0
+39,Comp,Compound,Nospace,thrillseeker,12,Match,,thrillseeker,12,0,426,0,0,0,0,0,0,0,0,0,0,0
+39,List,Compound,Space,discos movies,13,Mismatch,1,videos movies,13,0.1796680298,26180,31565,461,15.56077562,0,0,0,0,0,0,0,0
+39,List,Compound,Nospace,discosmovies,12,Match,,discosmovies,12,0,0,0,0,0,0,0,0,0,0,0,0,0
+40,Comp,Phrase,Space,hunts bargains,14,Mismatch,1,finds bargains,14,0.2552479028,25491,22442,711,22.43314713,0,0,0,0,0,0,0,0
+40,Comp,Phrase,Nospace,huntsbargains,13,Match,,huntsbargains,13,0,0,0,0,0,0,0,0,0,0,0,0,0
+40,List,Phrase,Space,aisles hangers,14,Mismatch,1,places hangers,14,0.297780625,21828,23871,39,21.30466421,0,0,0,0,0,0,0,0
+40,List,Phrase,Nospace,aisleshangers,13,Match,,aisleshangers,13,0,0,0,0,0,0,0,0,0,0,0,0,0
+40,Comp,Compound,Space,bargain hunter,14,Mismatch,2,bargain finder,14,0.2433657326,44502,33955,22451,7.133281175,0,0,0,0,0,0,0,0
+40,Comp,Compound,Nospace,bargainhunter,13,Match,,bargainhunter,13,0,14,0,0,0,0,0,0,0,0,0,0,0
+40,List,Compound,Space,centers metros,14,Mismatch,2,centers trains,14,0.2672075252,36432,27760,92,27.6301295,0,0,0,0,0,0,0,0
+40,List,Compound,Nospace,centersmetros,13,Match,,centersmetros,13,0,0,0,0,0,0,0,0,0,0,0,0,0
+41,Comp,Phrase,Space,fights crimes,13,Match,,fights crimes,13,0.310000017,24882,31713,14760,14.87690259,0,0,0,0,0,0,0,0
+41,Comp,Phrase,Nospace,fightscrimes,12,Mismatch,2,fightsthefts,12,0,0,0,0,0,0,0,0,0,0,0,0,0
+41,List,Phrase,Space,heroes rogues,13,Match,,heroes rogues,13,0.4676119992,32632,32870,21976,16.81640828,0,0,0,0,0,0,0,0
+41,List,Phrase,Nospace,heroesrogues,12,Mismatch,2,heroescomics,12,0,0,0,0,0,0,0,0,0,0,0,0,0
+41,Comp,Compound,Space,crime fighter,13,Match,,crime fighter,13,0.1602833816,35120,32510,6857,14.65815017,0,0,0,0,0,0,0,0
+41,Comp,Compound,Nospace,crimefighter,12,Mismatch,1,theftfighter,12,0,2093,0,0,0,0,0,0,0,0,0,0,0
+41,List,Compound,Space,capes weapons,13,Match,,capes weapons,13,0.1996700899,33557,34378,21282,16.89031193,0,0,0,0,0,0,0,0
+41,List,Compound,Nospace,capesweapons,12,Mismatch,1,masksweapons,12,0,0,0,0,0,0,0,0,0,0,0,0,0
+42,Comp,Phrase,Space,takes care,10,Match,,takes care,10,0.3447721813,30187,42756,24884,7.037812219,0,0,0,0,0,0,0,0
+42,Comp,Phrase,Nospace,takescare,9,Mismatch,1,givescare,9,0,3,0,0,0,0,0,0,0,0,0,0,0
+42,List,Phrase,Space,soups beds,10,Match,,soups beds,10,0.1311303917,23077,29074,7289,18.25923196,0,0,0,0,0,0,0,0
+42,List,Phrase,Nospace,soupsbeds,9,Mismatch,1,cakesbeds,9,0,0,0,0,0,0,0,0,0,0,0,0,0
+42,Comp,Compound,Space,care taker,10,Match,,care taker,10,0.1524888432,42756,26832,21282,16.63225062,0,0,0,0,0,0,0,0
+42,Comp,Compound,Nospace,caretaker,9,Mismatch,2,carelover,9,0,29151,0,0,0,0,0,0,0,0,0,0,0
+42,List,Compound,Space,beds soups,10,Match,,beds soups,10,0.1311303917,29074,23077,10170,22.25036054,0,0,0,0,0,0,0,0
+42,List,Compound,Nospace,bedssoups,9,Mismatch,2,bedsbowls,9,0,0,0,0,0,0,0,0,0,0,0,0,0
+43,Comp,Phrase,Space,keeps books,11,Mismatch,2,keeps notes,11,0.2364533616,24462,8225416,42,13.88402488,0,0,0,0,0,0,0,0
+43,Comp,Phrase,Nospace,keepsbooks,10,Match,,keepsbooks,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+43,List,Phrase,Space,pages zines,11,Mismatch,2,pages notes,11,0.2284649832,5114312,27460,16229,24.12101694,0,0,0,0,0,0,0,0
+43,List,Phrase,Nospace,pageszines,10,Match,,pageszines,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+43,Comp,Compound,Space,book keeper,11,Mismatch,1,note keeper,11,0.1759732709,10000000,43227,3568,15.92380361,0,0,0,0,0,0,0,0
+43,Comp,Compound,Nospace,bookkeeper,10,Match,,bookkeeper,10,0,25247,0,0,0,0,0,0,0,0,0,0,0
+43,List,Compound,Space,pens papers,11,Mismatch,1,inks papers,11,0.3351834097,26403,34271,7266,18.63826246,0,0,0,0,0,0,0,0
+43,List,Compound,Nospace,penspapers,10,Match,,penspapers,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+44,Comp,Phrase,Space,makes money,11,Mismatch,1,mints money,11,0.4360344722,30211,34278,36048,8.694098908,0,0,0,0,0,0,0,0
+44,Comp,Phrase,Nospace,makesmoney,10,Match,,makesmoney,10,0,1,0,0,0,0,0,0,0,0,0,0,0
+44,List,Phrase,Space,notes funds,11,Mismatch,1,costs funds,11,0.2057117107,33845,33960,11928,19.91678528,0,0,0,0,0,0,0,0
+44,List,Phrase,Nospace,notesfunds,10,Match,,notesfunds,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+44,Comp,Compound,Space,money maker,11,Mismatch,2,money joker,11,0.2432203906,34278,31827,5168,13.00555951,0,0,0,0,0,0,0,0
+44,Comp,Compound,Nospace,moneymaker,10,Match,,moneymaker,10,0,9630,0,0,0,0,0,0,0,0,0,0,0
+44,List,Compound,Space,bills notes,11,Mismatch,2,bills costs,11,0.2962676031,28611,33845,12669,16.99790518,0,0,0,0,0,0,0,0
+44,List,Compound,Nospace,billsnotes,10,Match,,billsnotes,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+45,Comp,Phrase,Space,breaks codes,12,Match,,breaks codes,12,0.1756766583,25499,34197,5834,16.40422529,0,0,0,0,0,0,0,0
+45,Comp,Phrase,Nospace,breakscodes,11,Mismatch,2,breakslines,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+45,List,Phrase,Space,tricks hints,12,Match,,tricks hints,12,0.4537142802,24789,24591,9691,18.91681847,0,0,0,0,0,0,0,0
+45,List,Phrase,Nospace,trickshints,11,Mismatch,2,trickscodes,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+45,Comp,Compound,Space,code breaker,12,Match,,code breaker,12,0.2180769806,33492,31305,12073,17.2663182,0,0,0,0,0,0,0,0
+45,Comp,Compound,Nospace,codebreaker,11,Mismatch,1,linebreaker,11,0,3322,0,0,0,0,0,0,0,0,0,0,0
+45,List,Compound,Space,screens keys,12,Match,,screens keys,12,0.3046986549,26054,34356,52,18.03371243,0,0,0,0,0,0,0,0
+45,List,Compound,Nospace,screenskeys,11,Mismatch,1,letterskeys,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+46,Comp,Phrase,Space,wastes time,11,Match,,wastes time,11,0.1925989803,28871,38836,15946,9.232582018,0,0,0,0,0,0,0,0
+46,Comp,Phrase,Nospace,wastestime,10,Mismatch,1,judgestime,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+46,List,Phrase,Space,clocks suns,11,Match,,clocks suns,11,0.1775142053,37265,35025,27,22.61166777,0,0,0,0,0,0,0,0
+46,List,Phrase,Nospace,clockssuns,10,Mismatch,1,monthssuns,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+46,Comp,Compound,Space,time waster,11,Match,,time waster,11,0.1540613142,38836,9050,203,26.58299374,0,0,0,0,0,0,0,0
+46,Comp,Compound,Nospace,timewaster,10,Mismatch,2,timejudger,10,0,840,0,0,0,0,0,0,0,0,0,0,0
+46,List,Compound,Space,suns clocks,11,Match,,suns clocks,11,0.1775142053,35025,37265,4544,19.99743989,0,0,0,0,0,0,0,0
+46,List,Compound,Nospace,sunsclocks,10,Mismatch,2,raysclocks,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+47,Comp,Phrase,Space,stops shows,11,Mismatch,2,stops plays,11,0.3716412546,34369,45791,19213,14.34755317,0,0,0,0,0,0,0,0
+47,Comp,Phrase,Nospace,stopsshows,10,Match,,stopsshows,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+47,List,Phrase,Space,songs bands,11,Mismatch,2,songs plays,11,0.5423618025,34369,28698,7289,17.5060736,0,0,0,0,0,0,0,0
+47,List,Phrase,Nospace,songsbands,10,Match,,songsbands,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+47,Comp,Compound,Space,show stopper,12,Mismatch,1,play stopper,12,0.0530180815,34378,36720,6991,19.73389612,0,0,0,0,0,0,0,0
+47,Comp,Compound,Nospace,showstopper,11,Match,,showstopper,11,0,15143,0,0,0,0,0,0,0,0,0,0,0
+47,List,Compound,Space,arts scripts,12,Mismatch,1,puns scripts,12,0.136090317,43683,28660,131,17.31838607,0,0,0,0,0,0,0,0
+47,List,Compound,Nospace,artsscripts,11,Match,,artsscripts,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+48,Comp,Phrase,Space,owns homes,10,Mismatch,1,buys homes,10,0.2328681782,51767,36754,24,13.95584059,0,0,0,0,0,0,0,0
+48,Comp,Phrase,Nospace,ownshomes,9,Match,,ownshomes,9,0,0,0,0,0,0,0,0,0,0,0,0,0
+48,List,Phrase,Space,keys doors,10,Mismatch,1,cups doors,10,0.3760593271,34356,28652,4078,18.5575634,0,0,0,0,0,0,0,0
+48,List,Phrase,Nospace,keysdoors,9,Match,,keysdoors,9,0,0,0,0,0,0,0,0,0,0,0,0,0
+48,Comp,Compound,Space,home owner,10,Mismatch,2,home maker,10,0.4470275295,20380,29345,47,11.29749673,0,0,0,0,0,0,0,0
+48,Comp,Compound,Nospace,homeowner,9,Match,,homeowner,9,0,33440,0,0,0,0,0,0,0,0,0,0,0
+48,List,Compound,Space,rugs lamps,10,Mismatch,2,rugs desks,10,0.4061570935,27385,29191,16279,20.42454723,0,0,0,0,0,0,0,0
+48,List,Compound,Nospace,rugslamps,9,Match,,rugslamps,9,0,0,0,0,0,0,0,0,0,0,0,0,0
+49,Comp,Phrase,Space,whacks weeds,12,Match,,whacks weeds,12,0.1031659668,8945,28864,76,20.31225149,0,0,0,0,0,0,0,0
+49,Comp,Phrase,Nospace,whacksweeds,11,Mismatch,2,whacksvines,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+49,List,Phrase,Space,bushes vines,12,Match,,bushes vines,12,0.574974335,34364,42458,2452,17.73193977,0,0,0,0,0,0,0,0
+49,List,Phrase,Nospace,bushesvines,11,Mismatch,2,bushesyards,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+49,Comp,Compound,Space,weed whacker,12,Match,,weed whacker,12,0.4038108307,34271,3189,94,22.58698176,0,0,0,0,0,0,0,0
+49,Comp,Compound,Nospace,weedwhacker,11,Mismatch,1,vinewhacker,11,0,247,0,0,0,0,0,0,0,0,0,0,0
+49,List,Compound,Space,ants flowers,12,Match,,ants flowers,12,0.3167476368,33360,32246,41772,17.42462213,0,0,0,0,0,0,0,0
+49,List,Compound,Nospace,antsflowers,11,Mismatch,1,bugsflowers,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+50,Comp,Phrase,Space,trades stocks,13,Match,,trades stocks,13,0.5523784895,34359,33613,9691,17.15087697,0,0,0,0,0,0,0,0
+50,Comp,Phrase,Nospace,tradesstocks,12,Mismatch,2,tradespounds,12,0,0,0,0,0,0,0,0,0,0,0,0,0
+50,List,Phrase,Space,riyals francs,13,Match,,riyals francs,13,0.4984930239,4551,39149,118,25.16392134,0,0,0,0,0,0,0,0
+50,List,Phrase,Nospace,riyalsfrancs,12,Mismatch,2,riyalspounds,12,0,0,0,0,0,0,0,0,0,0,0,0,0
+50,Comp,Compound,Space,stock trader,12,Match,,stock trader,12,0.4342747544,34357,34355,52,13.24263951,0,0,0,0,0,0,0,0
+50,Comp,Compound,Nospace,stocktrader,11,Mismatch,1,franctrader,11,0,250,0,0,0,0,0,0,0,0,0,0,0
+50,List,Compound,Space,euros rupees,12,Match,,euros rupees,12,0.5738327101,34357,34594,693,22.57160076,0,0,0,0,0,0,0,0
+50,List,Compound,Nospace,eurosrupees,11,Mismatch,1,pesosrupees,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+51,SSELocalizer,Phrase-Loc,Localizer,kittens meow,12,Match,,kittens meow,12,0.4715208336,31691,34361,24,13.950688,0,0,0,0,0,0,0,0
+51,SSELocalizer,List-Loc,Localizer,kittens dogs,12,Mismatch,2,kittens cats,12,0.6906752374,31691,2564558,9771,12.9966117,0,0,0,0,0,0,0,0
+52,SSELocalizer,Phrase-Loc,Localizer,pilots fly,10,Mismatch,1,planes fly,10,0.5021328957,32016,30053,37649,9.667253209,0,0,0,0,0,0,0,0
+52,SSELocalizer,List-Loc,Localizer,pilots sky,10,Match,,pilots sky,10,0.292186949,32016,27855,37649,16.0701862,0,0,0,0,0,0,0,0
+53,SSELocalizer,Phrase-Loc,Localizer,mice squeak,11,Match,,mice squeak,11,0.191245161,34752,29356,16700,19.0987971,0,0,0,0,0,0,0,0
+53,SSELocalizer,List-Loc,Localizer,mice horses,11,Mismatch,1,rats horses,11,0.3042747921,34752,32254,16700,17.85875203,0,0,0,0,0,0,0,0
+54,SSELocalizer,Phrase-Loc,Localizer,maids wash,10,Mismatch,2,maids walk,10,0.2295782981,27619,32203,36048,13.49590285,0,0,0,0,0,0,0,0
+54,SSELocalizer,List-Loc,Localizer,maids rugs,10,Match,,maids rugs,10,0.1598990533,27619,27385,36048,22.64933416,0,0,0,0,0,0,0,0
+55,SSELocalizer,Phrase-Loc,Localizer,frogs jump,10,Match,,frogs jump,10,0.2260155965,30793,28534,4429,13.28404867,0,0,0,0,0,0,0,0
+55,SSELocalizer,List-Loc,Localizer,frogs bugs,10,Mismatch,2,frogs ants,10,0.4934678831,30793,29694,65,16.77970479,0,0,0,0,0,0,0,0
+56,SSELocalizer,Phrase-Loc,Localizer,pants shrink,12,Mismatch,1,coats shrink,12,0.2827463617,25923,56086,16229,16.87159746,0,0,0,0,0,0,0,0
+56,SSELocalizer,List-Loc,Localizer,pants shirts,12,Match,,pants shirts,12,0.7231360567,25923,25442,16229,13.78582635,0,0,0,0,0,0,0,0
+57,SSELocalizer,Phrase-Loc,Localizer,steel rusts,11,Match,,steel rusts,11,0.2579744288,36444,7486,40,19.9970672,0,0,0,0,0,0,0,0
+57,SSELocalizer,List-Loc,Localizer,steel metal,11,Mismatch,1,stone metal,11,0.7096159329,36444,34390,19213,9.093651035,0,0,0,0,0,0,0,0
+58,SSELocalizer,Phrase-Loc,Localizer,candles melt,12,Mismatch,2,candles burn,12,0.31497853,27046,27209,21282,15.01142549,0,0,0,0,0,0,0,0
+58,SSELocalizer,List-Loc,Localizer,candles wick,12,Match,,candles wick,12,0.4290040842,27046,34363,21282,16.60019841,0,0,0,0,0,0,0,0
+59,SSELocalizer,Phrase-Loc,Localizer,ice melts,9,Match,,ice melts,9,0.4807417711,36619,20987,14053,17.01288081,0,0,0,0,0,0,0,0
+59,SSELocalizer,List-Loc,Localizer,ice vapor,9,Mismatch,1,gas vapor,9,0.2616494217,36619,29973,167,16.23983083,0,0,0,0,0,0,0,0
+60,SSELocalizer,Phrase-Loc,Localizer,babies yell,11,Mismatch,2,babies sing,11,0.2496913169,29799,23566,54,17.74115159,0,0,0,0,0,0,0,0
+60,SSELocalizer,List-Loc,Localizer,babies beds,11,Match,,babies beds,11,0.3156139515,29799,29074,22451,16.35561882,0,0,0,0,0,0,0,0
+61,SSELocalizer,Phrase-Loc,Localizer,knives slice,12,Match,,knives slice,12,0.3252499317,27766,31252,3896,16.83493309,0,0,0,0,0,0,0,0
+61,SSELocalizer,List-Loc,Localizer,knives spoon,12,Mismatch,1,plates spoon,12,0.4359958596,27766,31588,97,20.87168335,0,0,0,0,0,0,0,0
+62,SSELocalizer,Phrase-Loc,Localizer,lava flows,10,Mismatch,2,lava burns,10,0.4522597995,36195,27777,13969,11.16257889,0,0,0,0,0,0,0,0
+62,SSELocalizer,List-Loc,Localizer,lava stone,10,Match,,lava stone,10,0.4389101358,36195,34358,13969,12.66889357,0,0,0,0,0,0,0,0
+63,SSELocalizer,Phrase-Loc,Localizer,windows open,12,Match,,windows open,12,0.4577155154,35499,34361,9448,13.50279729,0,0,0,0,0,0,0,0
+63,SSELocalizer,List-Loc,Localizer,windows door,12,Mismatch,1,carpets door,12,0.5162460171,35499,31529,9448,16.53936642,0,0,0,0,0,0,0,0
+64,SSELocalizer,Phrase-Loc,Localizer,snakes bite,11,Mismatch,2,snakes move,11,0.427288686,29373,25585,6305,10.38228211,0,0,0,0,0,0,0,0
+64,SSELocalizer,List-Loc,Localizer,snakes eggs,11,Match,,snakes eggs,11,0.3858560656,29373,31193,6305,14.91825952,0,0,0,0,0,0,0,0
+65,SSELocalizer,Phrase-Loc,Localizer,stars shine,11,Match,,stars shine,11,0.3343287584,32965,26688,19213,14.46328688,0,0,0,0,0,0,0,0
+65,SSELocalizer,List-Loc,Localizer,stars moons,11,Mismatch,1,ships moons,11,0.3775443493,32965,28211,19213,19.80326168,0,0,0,0,0,0,0,0
+66,SSELocalizer,Phrase-Loc,Localizer,pencils break,13,Mismatch,2,pencils crack,13,0.1472699212,24212,28175,27,16.44732301,0,0,0,0,0,0,0,0
+66,SSELocalizer,List-Loc,Localizer,pencils paper,13,Match,,pencils paper,13,0.4318905447,24212,34366,7266,13.20696424,0,0,0,0,0,0,0,0
+67,SSELocalizer,Phrase-Loc,Localizer,snakes slither,14,Match,,snakes slither,14,0.4972034377,29373,17657,24,12.38041548,0,0,0,0,0,0,0,0
+67,SSELocalizer,List-Loc,Localizer,snakes spiders,14,Mismatch,1,beasts spiders,14,0.6830960017,29373,31778,6305,15.71101793,0,0,0,0,0,0,0,0
+68,SSELocalizer,Phrase-Loc,Localizer,cats meow,9,Mismatch,2,cats yell,9,0.4846818271,34676,34361,21282,19.33851282,0,0,0,0,0,0,0,0
+68,SSELocalizer,List-Loc,Localizer,cats dogs,9,Match,,cats dogs,9,0.8311763256,34676,2564558,21282,14.91380541,0,0,0,0,0,0,0,0
+69,SSELocalizer,Phrase-Loc,Localizer,jewels glow,11,Match,,jewels glow,11,0.3633813153,183244,28011,25,15.94584129,0,0,0,0,0,0,0,0
+69,SSELocalizer,List-Loc,Localizer,jewels gems,11,Mismatch,2,jewels cups,11,0.7023902409,183244,342118,25,15.49084967,0,0,0,0,0,0,0,0
+70,SSELocalizer,Phrase-Loc,Localizer,phones ring,11,Mismatch,2,phones buzz,11,0.3162477432,27656,33764,1221,13.97401406,0,0,0,0,0,0,0,0
+70,SSELocalizer,List-Loc,Localizer,phones keys,11,Match,,phones keys,11,0.3386124938,27656,34356,30,15.84318958,0,0,0,0,0,0,0,0
+71,SSELocalizer,Phrase-Loc,Localizer,friends play,12,Match,,friends play,12,0.3547136848,33306,34256,4429,13.21847856,0,0,0,0,0,0,0,0
+71,SSELocalizer,List-Loc,Localizer,friends kids,12,Mismatch,2,spouses kids,12,0.5847059029,33306,34937,4429,12.65029729,0,0,0,0,0,0,0,0
+72,SSELocalizer,Phrase-Loc,Localizer,plants grow,11,Mismatch,2,plants feel,11,0.5993318952,31762,28984,66,8.484332823,0,0,0,0,0,0,0,0
+72,SSELocalizer,List-Loc,Localizer,plants buds,11,Match,,plants buds,11,0.4593681429,31762,27867,4802,16.19077119,0,0,0,0,0,0,0,0
+73,SSELocalizer,Phrase-Loc,Localizer,pups growl,10,Match,,pups growl,10,0.2960096169,28054,40757,699,20.95645042,0,0,0,0,0,0,0,0
+73,SSELocalizer,List-Loc,Localizer,pups bones,10,Mismatch,2,pups tails,10,0.239922707,28054,34358,838,17.39555566,0,0,0,0,0,0,0,0
+74,SSELocalizer,Phrase-Loc,Localizer,teeth ache,10,Mismatch,2,teeth hurt,10,0.4196691911,30143,24566,159,18.28856935,0,0,0,0,0,0,0,0
+74,SSELocalizer,List-Loc,Localizer,teeth gums,10,Match,,teeth gums,10,0.6829136269,30143,25432,16835,15.56242735,0,0,0,0,0,0,0,0
+75,SSELocalizer,Phrase-Loc,Localizer,apples rot,10,Match,,apples rot,10,0.3274102773,30510,34354,44737,16.0057746,0,0,0,0,0,0,0,0
+75,SSELocalizer,List-Loc,Localizer,apples fig,10,Mismatch,1,grapes fig,10,0.5136493081,30510,50484,44737,17.34306202,0,0,0,0,0,0,0,0
+76,SSELocalizer,Phrase-Loc,Localizer,tea boils,9,Mismatch,1,ice boils,9,0.2181093293,34353,20888,126,17.51550924,0,0,0,0,0,0,0,0
+76,SSELocalizer,List-Loc,Localizer,tea vodka,9,Match,,tea vodka,9,0.4560682807,34353,32562,16835,14.79788053,0,0,0,0,0,0,0,0
+77,SSELocalizer,Phrase-Loc,Localizer,pigs oink,9,Match,,pigs oink,9,0.4066579897,37508,6720,37649,22.01770794,0,0,0,0,0,0,0,0
+77,SSELocalizer,List-Loc,Localizer,pigs cows,9,Mismatch,1,dogs cows,9,0.754477104,37508,48604,413,16.85817879,0,0,0,0,0,0,0,0
+78,SSELocalizer,Phrase-Loc,Localizer,birds chirp,11,Mismatch,2,birds sleep,11,0.3707000996,34683,28748,12669,16.05080751,0,0,0,0,0,0,0,0
+78,SSELocalizer,List-Loc,Localizer,birds worms,11,Match,,birds worms,11,0.4163544758,34683,29327,104,17.6432868,0,0,0,0,0,0,0,0
+79,SSELocalizer,Phrase-Loc,Localizer,bosses decide,13,Match,,bosses decide,13,0.3113096973,45700,27105,28,13.89076554,0,0,0,0,0,0,0,0
+79,SSELocalizer,List-Loc,Localizer,bosses police,13,Mismatch,2,bosses lawyer,13,0.2964230654,45700,35905,3568,15.62651644,0,0,0,0,0,0,0,0
+80,SSELocalizer,Phrase-Loc,Localizer,boxers fight,12,Mismatch,1,tigers fight,12,0.4256100108,27380,30516,3568,9.602962169,0,0,0,0,0,0,0,0
+80,SSELocalizer,List-Loc,Localizer,boxers glove,12,Match,,boxers glove,12,0.3518963407,27380,28412,3568,18.28392738,0,0,0,0,0,0,0,0
+81,SSELocalizer,Phrase-Loc,Localizer,queens rule,11,Match,,queens rule,11,0.2632879813,31311,35397,883,12.34586576,0,0,0,0,0,0,0,0
+81,SSELocalizer,List-Loc,Localizer,queens king,11,Mismatch,1,prince king,11,0.5279818416,31311,37433,1667,15.19442421,0,0,0,0,0,0,0,0
+82,SSELocalizer,Phrase-Loc,Localizer,nurses heal,11,Mismatch,2,nurses help,11,0.2271754657,46721,26301,3999,14.71788165,0,0,0,0,0,0,0,0
+82,SSELocalizer,List-Loc,Localizer,nurses beds,11,Match,,nurses beds,11,0.2205296547,46721,29074,39,17.07120376,0,0,0,0,0,0,0,0
+83,SSELocalizer,Phrase-Loc,Localizer,fingers snap,12,Match,,fingers snap,12,0.4218091975,25003,34217,14760,14.78131302,0,0,0,0,0,0,0,0
+83,SSELocalizer,List-Loc,Localizer,fingers toes,12,Mismatch,2,fingers lips,12,0.7459751246,25003,24160,14760,17.06794138,0,0,0,0,0,0,0,0
+84,SSELocalizer,Phrase-Loc,Localizer,bubbles float,13,Mismatch,1,tankers float,13,0.4783388434,28806,27230,2452,13.71760889,0,0,0,0,0,0,0,0
+84,SSELocalizer,List-Loc,Localizer,bubbles frost,13,Match,,bubbles frost,13,0.2773679265,28806,38356,758,19.31587242,0,0,0,0,0,0,0,0
+85,SSELocalizer,Phrase-Loc,Localizer,moles burrow,12,Match,,moles burrow,12,0.392270685,30541,37905,5168,17.6095672,0,0,0,0,0,0,0,0
+85,SSELocalizer,List-Loc,Localizer,moles gopher,12,Mismatch,1,boars gopher,12,0.3034339303,30541,34354,1760,22.86151259,0,0,0,0,0,0,0,0
+86,SSELocalizer,Phrase-Loc,Localizer,ships sink,10,Mismatch,2,ships sail,10,0.2566082114,29024,34373,6991,17.06730505,0,0,0,0,0,0,0,0
+86,SSELocalizer,List-Loc,Localizer,ships boat,10,Match,,ships boat,10,0.4978497371,29024,33729,26,15.73751355,0,0,0,0,0,0,0,0
+87,SSELocalizer,Phrase-Loc,Localizer,hyenas laugh,12,Match,,hyenas laugh,12,0.2348009299,23460,25203,1527,15.03898363,0,0,0,0,0,0,0,0
+87,SSELocalizer,List-Loc,Localizer,hyenas lions,12,Mismatch,2,hyenas boars,12,0.6660134127,23460,42587,1527,16.74899794,0,0,0,0,0,0,0,0
+88,SSELocalizer,Phrase-Loc,Localizer,coffees brew,12,Mismatch,1,frappés brew,12,0.5267955427,23092,33253,41,15.00684875,0,0,0,0,0,0,0,0
+88,SSELocalizer,List-Loc,Localizer,coffees soda,12,Match,,coffees soda,12,0.3425377513,23092,31302,12073,18.9380256,0,0,0,0,0,0,0,0
+89,SSELocalizer,Phrase-Loc,Localizer,horses race,11,Match,,horses race,11,0.4137939116,32254,34920,6536,10.87507141,0,0,0,0,0,0,0,0
+89,SSELocalizer,List-Loc,Localizer,horses pigs,11,Mismatch,1,bushes pigs,11,0.5717617393,32254,37508,6536,17.45064181,0,0,0,0,0,0,0,0
+90,SSELocalizer,Phrase-Loc,Localizer,glasses break,13,Mismatch,2,glasses crack,13,0.2764300634,28105,28175,46,13.5550404,0,0,0,0,0,0,0,0
+90,SSELocalizer,List-Loc,Localizer,glasses vases,13,Match,,glasses vases,13,0.3998139268,28105,23723,93,20.51651828,0,0,0,0,0,0,0,0
+91,SSELocalizer,Phrase-Loc,Localizer,priests pray,12,Match,,priests pray,12,0.4935528802,31146,20041,9510,12.17396399,0,0,0,0,0,0,0,0
+91,SSELocalizer,List-Loc,Localizer,priests nuns,12,Mismatch,2,priests sins,12,0.6774187759,31146,27264,142,19.27592118,0,0,0,0,0,0,0,0
+92,SSELocalizer,Phrase-Loc,Localizer,gears turn,10,Mismatch,1,halls turn,10,0.3415752676,28895,29402,10334,13.66517215,0,0,0,0,0,0,0,0
+92,SSELocalizer,List-Loc,Localizer,gears bots,10,Match,,gears bots,10,0.2307401139,28895,30149,10334,18.00526526,0,0,0,0,0,0,0,0
+93,SSELocalizer,Phrase-Loc,Localizer,zebras trot,11,Match,,zebras trot,11,0.2671032019,24953,26001,632,21.74462845,0,0,0,0,0,0,0,0
+93,SSELocalizer,List-Loc,Localizer,zebras emus,11,Mismatch,1,tigers emus,11,0.5529730874,24953,14775,565,23.06065726,0,0,0,0,0,0,0,0
+94,SSELocalizer,Phrase-Loc,Localizer,snails crawl,12,Mismatch,2,snails climb,12,0.347605672,27809,24183,6305,13.37003888,0,0,0,0,0,0,0,0
+94,SSELocalizer,List-Loc,Localizer,snails slugs,12,Match,,snails slugs,12,0.6275198394,27809,27065,6305,20.67443985,0,0,0,0,0,0,0,0
+95,SSELocalizer,Phrase-Loc,Localizer,athletes run,12,Match,,athletes run,12,0.2740740482,77370,31621,56,11.54461247,0,0,0,0,0,0,0,0
+95,SSELocalizer,List-Loc,Localizer,athletes gym,12,Mismatch,2,athletes gun,12,0.4345744424,77370,27507,67057,18.62391079,0,0,0,0,0,0,0,0
+96,SSELocalizer,Phrase-Loc,Localizer,cells divide,12,Mismatch,1,cakes divide,12,0.3044072216,36944,37052,11824,15.37842806,0,0,0,0,0,0,0,0
+96,SSELocalizer,List-Loc,Localizer,cells livers,12,Match,,cells livers,12,0.3789970711,36944,23903,83,19.45467018,0,0,0,0,0,0,0,0
+97,SSELocalizer,Phrase-Loc,Localizer,thieves steal,13,Match,,thieves steal,13,0.5730232036,30150,25296,24657,9.952806139,0,0,0,0,0,0,0,0
+97,SSELocalizer,List-Loc,Localizer,thieves safes,13,Mismatch,1,robbers safes,13,0.2723160606,30150,26748,24657,18.82861388,0,0,0,0,0,0,0,0
+98,SSELocalizer,Phrase-Loc,Localizer,rivers flow,11,Mismatch,2,rivers pour,11,0.4177344496,32851,31040,15580,11.65319696,0,0,0,0,0,0,0,0
+98,SSELocalizer,List-Loc,Localizer,rivers seas,11,Match,,rivers seas,11,0.5271665409,32851,31818,15580,18.88390044,0,0,0,0,0,0,0,0
+99,SSELocalizer,Phrase-Loc,Localizer,wheels turn,11,Match,,wheels turn,11,0.3166183669,30158,29402,11015,10.85864942,0,0,0,0,0,0,0,0
+99,SSELocalizer,List-Loc,Localizer,wheels cogs,11,Mismatch,2,wheels cars,11,0.4137261346,30158,28019,77,19.82122915,0,0,0,0,0,0,0,0
+100,SSELocalizer,Phrase-Loc,Localizer,doctors help,12,Mismatch,1,viruses help,12,0.4210853517,27282,34359,30,12.08690113,0,0,0,0,0,0,0,0
+100,SSELocalizer,Word,Localizer,doctors pens,12,Match,,doctors pens,12,0.1395887326,27282,26403,20,19.4146398,0,0,0,0,0,0,0,0
+101,Lexicality,Word,Localizer,cartoon,7,Match,,cartoon,7,0,0,0,0,0,2,2.3529,2,2.3529,2,2.3529,2,2.3529
+102,Lexicality,Word,Localizer,cloth,5,Mismatch,,sloth,5,0,0,0,0,0,5,2.4784,5,1.0235,3.0,3.634,3.0,4.3987
+103,Lexicality,Word,Localizer,monster,7,Match,,monster,7,0,0,0,0,0,4,6.2892,3,4.0131,4,6.2892,3,4.0131
+104,Lexicality,Word,Localizer,beacon,6,Mismatch,,season,6,0,0,0,0,0,5,5.7647,2,7.3627,7.0,34.4258,2.0,98.7058
+105,Lexicality,Word,Localizer,hazard,6,Match,,hazard,6,0,0,0,0,0,3,1.1961,1,0.62745,3,1.1961,1,0.62745
+106,Lexicality,Word,Localizer,frame,5,Mismatch,,flame,5,0,0,0,0,0,12,173.4444,4,6.3529,9.0,14.2331,7.0,15.1289
+107,Lexicality,Word,Localizer,biscuit,7,Match,,biscuit,7,0,0,0,0,0,1,3.2745,1,3.2745,1,3.2745,1,3.2745
+108,Lexicality,Word,Localizer,cable,5,Mismatch,,table,5,0,0,0,0,0,11,25.4474,7,38.6219,12.0,21.116,9.0,24.7059
+109,Lexicality,Word,Localizer,mansion,7,Match,,mansion,7,0,0,0,0,0,2,30.0882,1,0.70588,2,30.0882,1,0.70588
+110,Lexicality,Word,Localizer,jungle,6,Match,,jungle,6,0,0,0,0,0,3,2.4052,3,2.4052,3,2.4052,3,2.4052
+111,Lexicality,Word,Localizer,kitten,6,Mismatch,,mitten,6,0,0,0,0,0,8,16.8088,3,1.915,9.0,11.8824,4.0,2.6618
+112,Lexicality,Word,Localizer,tulip,5,Mismatch,,tunic,5,0,0,0,0,0,1,1.1373,1,1.1373,2.0,2.8529,1.0,3.8235
+113,Lexicality,Word,Localizer,helmet,6,Match,,helmet,6,0,0,0,0,0,1,2.0196,1,2.0196,1,2.0196,1,2.0196
+114,Lexicality,Word,Localizer,token,5,Mismatch,,taken,5,0,0,0,0,0,3,47.0784,4,35.5098,4.0,4.897,5.0,402.7451
+115,Lexicality,Word,Localizer,napkin,6,Match,,napkin,6,0,0,0,0,0,1,2.5686,1,2.5686,1,2.5686,1,2.5686
+116,Lexicality,Word,Localizer,bonnet,6,Mismatch,,sonnet,6,0,0,0,0,0,1,0.76471,2,0.58824,3.0,1.3137,2.0,1.1666
+117,Lexicality,Word,Localizer,kitchen,7,Match,,kitchen,7,0,0,0,0,0,2,2.7255,1,0.72549,2,2.7255,1,0.72549
+118,Lexicality,Word,Localizer,mustard,7,Mismatch,,custard,7,0,0,0,0,0,3,1.3725,1,1.2549,2.0,3.4118,1.0,6.451
+119,Lexicality,Word,Localizer,cigar,5,Match,,cigar,5,0,0,0,0,0,1,6.6667,1,6.6667,1,6.6667,1,6.6667
+120,Lexicality,Word,Localizer,blanket,7,Mismatch,,bracket,7,0,0,0,0,0,1,5.098,1,5.098,1.0,7.4314,2.0,4.0294
+121,Lexicality,Word,Localizer,manual,6,Match,,manual,6,0,0,0,0,0,2,3.902,1,0.60784,2,3.902,1,0.60784
+122,Lexicality,Word,Localizer,dolphin,7,Match,,dolphin,7,0,0,0,0,0,1,3.9608,1,3.9608,1,3.9608,1,3.9608
+123,Lexicality,Word,Localizer,dagger,6,Mismatch,,danger,6,0,0,0,0,0,5,1.5529,3,16.5556,4.0,2.8578,9.0,6.0131
+124,Lexicality,Word,Localizer,mango,5,Mismatch,,mangy,5,0,0,0,0,0,3,2.183,3,2.5686,2.0,8.8137,4.0,94.6765
+125,Lexicality,Word,Localizer,throne,6,Match,,throne,6,0,0,0,0,0,11,18.6239,2,1.2353,11,18.6239,2,1.2353
+126,Lexicality,Word,Localizer,village,7,Mismatch,,pillage,7,0,0,0,0,0,1,0.60784,2,1.5098,1.0,33.5686,1.0,33.5686
+127,Lexicality,Word,Localizer,machine,7,Match,,machine,7,0,0,0,0,0,1,13.8627,1,13.8627,1,13.8627,1,13.8627
+128,Lexicality,Word,Localizer,lizard,6,Mismatch,,wizard,6,0,0,0,0,0,6,2.5229,2,5.951,4.0,1.8627,2.0,2.9607
+129,Lexicality,Word,Localizer,violin,5,Match,,violin,6,0,0,0,0,0,1,1.0588,1,1.0588,1,1.0588,1,1.0588
+130,Lexicality,Word,Localizer,stone,5,Mismatch,,atone,5,0,0,0,0,0,18,6.9662,12,15.1356,4.0,91.7353,3.0,122.0065
+131,Lexicality,Word,Localizer,picture,7,Match,,picture,7,0,0,0,0,0,4,18.6618,2,35.402,4,18.6618,2,35.402
+132,Lexicality,Word,Localizer,nylon,5,Mismatch,,pylon,5,0,0,0,0,0,2,0.89216,2,0.89216,2.0,0.85292,2.0,0.85292
+133,Lexicality,Word,Localizer,fabric,6,Match,,fabric,6,0,0,0,0,0,1,0.7451,1,0.7451,1,0.7451,1,0.7451
+134,Lexicality,Word,Localizer,scale,5,Mismatch,,stale,5,0,0,0,0,0,12,34.0735,6,11.3203,24.0,75.8864,13.0,25.7753
+135,Lexicality,Word,Localizer,pellet,5,Match,,pellet,6,0,0,0,0,0,3,0.6732,2,0.53921,3,0.6732,2,0.53921
+136,Lexicality,Word,Localizer,clinic,6,Match,,clinic,6,0,0,0,0,0,2,1.951,1,0.98039,2,1.951,1,0.98039
+137,Lexicality,Word,Localizer,frame,5,Mismatch,,flame,5,0,0,0,0,0,12,173.4444,4,6.3529,9.0,14.2331,7.0,15.1289
+138,Lexicality,Word,Localizer,lobster,7,Mismatch,,mobster,7,0,0,0,0,0,2,1.4902,2,1.4902,2.0,23.098,2.0,23.098
+139,Lexicality,Word,Localizer,trumpet,7,Match,,trumpet,7,0,0,0,0,0,2,0.66667,2,0.66667,2,0.66667,2,0.66667
+140,Lexicality,Word,Localizer,model,5,Mismatch,,motel,5,0,0,0,0,0,10,11.4412,5,6.8196,2.0,52.1471,3.0,45.451
+141,Lexicality,Word,Localizer,marble,6,Match,,marble,6,0,0,0,0,0,7,8.9132,1,3.0392,7,8.9132,1,3.0392
+142,Lexicality,Word,Localizer,ticket,6,Mismatch,,picket,6,0,0,0,0,0,4,11.7794,5,9.6392,5.0,30.7098,5.0,30.7372
+143,Lexicality,Word,Localizer,signal,6,Match,,signal,6,0,0,0,0,0,3,3.4837,1,9.5294,3,3.4837,1,9.5294
+144,Lexicality,Word,Localizer,block,5,Mismatch,,black,5,0,0,0,0,0,17,20.4106,8,38.3162,20.0,105.9775,8.0,260.9877
+145,Lexicality,Word,Localizer,pearl,5,Match,,pearl,5,0,0,0,0,0,30,35.051,5,5.8039,30,35.051,5,5.8039
+146,Lexicality,Word,Localizer,chair,5,Mismatch,,choir,5,0,0,0,0,0,37,220.2279,7,27.6163,6.0,40.3333,2.0,24.8039
+147,Lexicality,Word,Localizer,dragon,6,Match,,dragon,6,0,0,0,0,0,1,4.549,2,2.4608,1,4.549,2,2.4608
+148,Lexicality,Word,Localizer,brush,5,Mismatch,,crush,5,0,0,0,0,0,6,9.0131,5,13.0824,9.0,9.8083,4.0,19.3677
+149,Lexicality,Word,Localizer,koala,5,Match,,koala,5,0,0,0,0,0,1,5.5294,0,0,1,5.5294,0,0
+150,Lexicality,Word,Localizer,perch,5,Mismatch,,porch,5,0,0,0,0,0,19,12.4221,2,7.9902,15.0,7.2052,4.0,2.2402
+101,Lexicality,Pseudoword,Localizer,granic,6,Match,,granic,6,0,0,0,0,0,2,1.9607,0,0,2,1.9607,0,0
+102,Lexicality,Pseudoword,Localizer,fraim,5,Mismatch,,graim,5,0,0,0,0,0,12,173.4444,1,1.5882,19.0,65.1837,4.0,3.7059
+103,Lexicality,Pseudoword,Localizer,bartian,7,Match,,bartian,7,0,0,0,0,0,3,2.2484,1,1.7255,3,2.2484,1,1.7255
+104,Lexicality,Pseudoword,Localizer,throck,5,Mismatch,,throck,6,0,0,0,0,0,18.5216,0,0,0.55,18.5216,0,0,0.55
+105,Lexicality,Pseudoword,Localizer,mawhile,7,Match,,jawhile,7,0,0,0,0,0,1,9.4706,1,9.4706,1.0,9.4706,1.0,9.4706
+106,Lexicality,Pseudoword,Localizer,blandit,7,Mismatch,,blandit,7,0,0,0,0,0,1,3.7451,1,3.7451,1,3.7451,1,3.7451
+107,Lexicality,Pseudoword,Localizer,mandler,7,Match,,yandler,7,0,0,0,0,0,3,6.0262,2,1.6863,3.0,6.0262,2.0,1.6863
+108,Lexicality,Pseudoword,Localizer,jadle,5,Mismatch,,jadle,5,0,0,0,0,0,3,25.4837,2,2.9118,3,25.4837,2,2.9118
+109,Lexicality,Pseudoword,Localizer,peard,5,Match,,ceard,5,0,0,0,0,0,27,34.6042,5,83.6667,31.0,95.759,3.0,161.9281
+110,Lexicality,Pseudoword,Localizer,mestart,7,Match,,mestart,7,0,0,0,0,0,1,0.5882,1,0.5882,1,0.5882,1,0.5882
+111,Lexicality,Pseudoword,Localizer,scalon,6,Mismatch,,scalon,6,0,0,0,0,0,1,4.5882,1,4.5882,1,4.5882,1,4.5882
+112,Lexicality,Pseudoword,Localizer,nocket,6,Mismatch,,nockey,6,0,0,0,0,0,7,11.4454,5,10.4118,10.0,14.5745,2.0,8.1863
+113,Lexicality,Pseudoword,Localizer,gitcher,7,Match,,gitcher,7,0,0,0,0,0,3,2.7582,1,3.2353,3,2.7582,1,3.2353
+114,Lexicality,Pseudoword,Localizer,swoth,5,Mismatch,,swoth,5,0,0,0,0,0,7,2.7703,1,1.451,7,2.7703,1,1.451
+115,Lexicality,Pseudoword,Localizer,matso,5,Match,,matso,5,0,0,0,0,0,2,2.1765,3,1.7713,2,2.1765,3,1.7713
+116,Lexicality,Pseudoword,Localizer,cabble,6,Mismatch,,qabble,6,0,0,0,0,0,13,8.8673,5,5.1216,1.0,0.5882,3.0,0.8301
+117,Lexicality,Pseudoword,Localizer,fetric,6,Match,,fetric,6,0,0,0,0,0,1,0.4902,1,0.4902,1,0.4902,1,0.4902
+118,Lexicality,Pseudoword,Localizer,chare,5,Mismatch,,ghare,5,0,0,0,0,0,37,220.2279,10,71.0725,35.0,365.0471,3.0,24.9804
+119,Lexicality,Pseudoword,Localizer,kuano,5,Match,,kuano,5,0,0,0,0,0,13,3.724,1,0.3922,13,3.724,1,0.3922
+120,Lexicality,Pseudoword,Localizer,napron,6,Mismatch,,napron,6,0,0,0,0,0,1,2.6667,1,2.6667,1,2.6667,1,2.6667
+121,Lexicality,Pseudoword,Localizer,scail,5,Match,,slail,5,0,0,0,0,0,12,34.0735,2,7.7549,13.0,6.7255,3.0,5.7712
+122,Lexicality,Pseudoword,Localizer,callet,6,Match,,callet,6,0,0,0,0,0,3,0.5817,6,63.0882,3,0.5817,6,63.0882
+123,Lexicality,Pseudoword,Localizer,beaken,6,Mismatch,,keaken,6,0,0,0,0,0,5,5.7647,3,4.5294,4.0,2.2108,2.0,0.9412
+124,Lexicality,Pseudoword,Localizer,herbet,6,Mismatch,,herbet,6,0,0,0,0,0,2,2.3922,2,2.3922,2,2.3922,2,2.3922
+125,Lexicality,Pseudoword,Localizer,hircuit,7,Match,,kircuit,7,0,0,0,0,0,2,3.9216,1,6.6667,1.0,6.6667,1.0,6.6667
+126,Lexicality,Pseudoword,Localizer,vollard,7,Mismatch,,vollard,7,0,0,0,0,0,1,0.7451,1,0.7451,1,0.7451,1,0.7451
+127,Lexicality,Pseudoword,Localizer,flaim,5,Match,,flail,5,0,0,0,0,0,9,14.2331,2,13.8333,5.0,7.4627,3.0,9.4836
+128,Lexicality,Pseudoword,Localizer,stoid,5,Mismatch,,stoid,5,0,0,0,0,0,12,6.6176,2,13.098,12,6.6176,2,13.098
+129,Lexicality,Pseudoword,Localizer,tobbler,7,Match,,tobbler,7,0,0,0,0,0,2,1.5588,1,2.3333,2,1.5588,1,2.3333
+130,Lexicality,Pseudoword,Localizer,pequal,6,Mismatch,,lequal,6,0,0,0,0,0,2,7.5686,1,13.3725,2.0,7.5686,1.0,13.3725
+131,Lexicality,Pseudoword,Localizer,jowel,5,Match,,jowel,5,0,0,0,0,0,12,11.2908,5,6.6902,12,11.2908,5,6.6902
+132,Lexicality,Pseudoword,Localizer,dorphan,7,Mismatch,,porphan,7,0,0,0,0,0,2,4.4608,1,5.7451,2.0,5.0392,1.0,5.7451
+133,Lexicality,Pseudoword,Localizer,donset,6,Match,,donset,6,0,0,0,0,0,1,0.8431,1,0.8431,1,0.8431,1,0.8431
+134,Lexicality,Pseudoword,Localizer,brude,5,Mismatch,,brume,5,0,0,0,0,0,19,9.129,6,12.5327,14.0,36.3711,2.0,12.2549
+135,Lexicality,Pseudoword,Localizer,tyodin,6,Match,,tyodin,6,0,0,0,0,0,1,1.2157,0,0,1,1.2157,0,0
+136,Lexicality,Pseudoword,Localizer,blote,5,Match,,plote,5,0,0,0,0,0,12,20.1944,2,2.8039,8.0,6.1667,3.0,12.9739
+137,Lexicality,Pseudoword,Localizer,ticard,6,Mismatch,,ticard,6,0,0,0,0,0,2,1.7549,1,1.5294,2,1.7549,1,1.5294
+138,Lexicality,Pseudoword,Localizer,kidden,6,Mismatch,,kidden,6,0,0,0,0,0,5,17.4824,3,8.0915,5,17.4824,3,8.0915
+139,Lexicality,Pseudoword,Localizer,mecture,7,Match,,secture,7,0,0,0,0,0,1,10.4706,1,10.4706,2.0,8.7647,2.0,17.4019
+140,Lexicality,Pseudoword,Localizer,bicar,5,Mismatch,,bicar,5,0,0,0,0,0,18,6.4978,1,1.4706,18,6.4978,1,1.4706
+141,Lexicality,Pseudoword,Localizer,vagged,6,Match,,vagger,6,0,0,0,0,0,3,1.5294,5,1.3451,3.0,2.1961,1.0,4.9216
+142,Lexicality,Pseudoword,Localizer,tunup,5,Mismatch,,tunup,5,0,0,0,0,0,1,1.1569,1,1.1569,1,1.1569,1,1.1569
+143,Lexicality,Pseudoword,Localizer,trunket,7,Match,,drunket,7,0,0,0,0,0,1,0.7059,1,0.7059,0.0,0.0,2.0,3.353
+144,Lexicality,Pseudoword,Localizer,hacate,6,Mismatch,,hacate,6,0,0,0,0,0,1,1.098,2,0.7549,1,1.098,2,0.7549
+145,Lexicality,Pseudoword,Localizer,hension,7,Match,,yension,7,0,0,0,0,0,3,24.2876,2,6.696,3.0,24.2876,2.0,6.696
+146,Lexicality,Pseudoword,Localizer,nison,5,Mismatch,,nison,5,0,0,0,0,0,2,0.9608,2,2.3627,2,0.9608,2,2.3627
+147,Lexicality,Pseudoword,Localizer,talen,5,Match,,talen,5,0,0,0,0,0,3,46.6471,6,30.9477,3,46.6471,6,30.9477
+148,Lexicality,Pseudoword,Localizer,dundle,6,Mismatch,,pundle,6,0,0,0,0,0,2,2.3726,2,2.3726,2.0,2.9216,2.0,2.9216
+149,Lexicality,Pseudoword,Localizer,siscal,6,Match,,siscal,6,0,0,0,0,0,3,0.9935,1,0.7647,3,0.9935,1,0.7647
+150,Lexicality,Pseudoword,Localizer,purch,5,Mismatch,,zorch,5,0,0,0,0,0,19,12.4221,4,10.2843,2.0,7.304,2.0,7.304
+101,Lexicality,ConsonantString,Localizer,mdbym,5,Match,,mdbym,5,0,0,0,0,0,0,0,0,0,0,0,0,0
+102,Lexicality,ConsonantString,Localizer,rqwpg,5,Mismatch,,nqwpg,5,0,0,0,0,0,0,0,0,0,0,0,0,0
+103,Lexicality,ConsonantString,Localizer,trbwr,5,Match,,trbwr,5,0,0,0,0,0,0,0,0,0,0,0,0,0
+104,Lexicality,ConsonantString,Localizer,ysbgd,5,Mismatch,,ysbgd,5,0,0,0,0,0,0,0,0,0,0,0,0,0
+105,Lexicality,ConsonantString,Localizer,trbwr,5,Match,,krbwr,5,0,0,0,0,0,0,0,0,0,0,0,0,0
+106,Lexicality,ConsonantString,Localizer,pckcy,5,Mismatch,,pckcy,5,0,0,0,0,0,0,0,0,0,0,0,0,0
+107,Lexicality,ConsonantString,Localizer,phzjq,5,Match,,ghzjq,5,0,0,0,0,0,0,0,0,0,0,0,0,0
+108,Lexicality,ConsonantString,Localizer,xpymp,5,Mismatch,,xpymp,5,0,0,0,0,0,0,0,0,0,0,0,0,0
+109,Lexicality,ConsonantString,Localizer,xdvhv,5,Match,,bdvhv,5,0,0,0,0,0,0,0,0,0,0,0,0,0
+110,Lexicality,ConsonantString,Localizer,xshjh,5,Match,,xshjh,5,0,0,0,0,0,0,0,0,0,0,0,0,0
+111,Lexicality,ConsonantString,Localizer,wnwjy,5,Mismatch,,wnwjy,5,0,0,0,0,0,0,0,0,0,0,0,0,0
+112,Lexicality,ConsonantString,Localizer,fdgsc,5,Mismatch,,fdgsx,5,0,0,0,0,0,0,0,0,0,0,0,0,0
+113,Lexicality,ConsonantString,Localizer,xlyly,5,Match,,xlyly,5,0,0,0,0,0,0,0,0,0,0,0,0,0
+114,Lexicality,ConsonantString,Localizer,phglvy,6,Mismatch,,phglvy,6,0,0,0,0,0,0,0,0,0,0,0,0,0
+115,Lexicality,ConsonantString,Localizer,rjsbcp,6,Match,,rjsbcp,6,0,0,0,0,0,0,0,0,0,0,0,0,0
+116,Lexicality,ConsonantString,Localizer,hspmdl,6,Mismatch,,kspmdl,6,0,0,0,0,0,0,0,0,0,0,0,0,0
+117,Lexicality,ConsonantString,Localizer,xwyjnc,6,Match,,xwyjnc,6,0,0,0,0,0,0,0,0,0,0,0,0,0
+118,Lexicality,ConsonantString,Localizer,cgbsxm,6,Mismatch,,tgbsxm,6,0,0,0,0,0,0,0,0,0,0,0,0,0
+119,Lexicality,ConsonantString,Localizer,bzjvql,6,Match,,bzjvql,6,0,0,0,0,0,0,0,0,0,0,0,0,0
+120,Lexicality,ConsonantString,Localizer,fsxpbh,6,Mismatch,,fsxpbh,6,0,0,0,0,0,0,0,0,0,0,0,0,0
+121,Lexicality,ConsonantString,Localizer,jqscgt,6,Match,,jxscgt,6,0,0,0,0,0,0,0,0,0,0,0,0,0
+122,Lexicality,ConsonantString,Localizer,qmyhvz,6,Match,,qmyhvz,6,0,0,0,0,0,0,0,0,0,0,0,0,0
+123,Lexicality,ConsonantString,Localizer,wgrvhm,6,Mismatch,,bgrvhm,6,0,0,0,0,0,0,0,0,0,0,0,0,0
+124,Lexicality,ConsonantString,Localizer,fvlxkb,6,Mismatch,,fvlxkb,6,0,0,0,0,0,0,0,0,0,0,0,0,0
+125,Lexicality,ConsonantString,Localizer,drkgbp,6,Match,,trkgbp,6,0,0,0,0,0,0,0,0,0,0,0,0,0
+126,Lexicality,ConsonantString,Localizer,mcwqpm,6,Mismatch,,mcwqpm,6,0,0,0,0,0,0,0,0,0,0,0,0,0
+127,Lexicality,ConsonantString,Localizer,ygyncx,6,Match,,ygynbx,6,0,0,0,0,0,0,0,0,0,0,0,0,0
+128,Lexicality,ConsonantString,Localizer,jqjhbrq,7,Mismatch,,jqjhbrq,7,0,0,0,0,0,0,0,0,0,0,0,0,0
+129,Lexicality,ConsonantString,Localizer,xrcvcwd,7,Match,,xrcvcwd,7,0,0,0,0,0,0,0,0,0,0,0,0,0
+130,Lexicality,ConsonantString,Localizer,khbjrqb,7,Mismatch,,phbjrqb,7,0,0,0,0,0,0,0,0,0,0,0,0,0
+131,Lexicality,ConsonantString,Localizer,svmzdjv,7,Match,,svmzdjv,7,0,0,0,0,0,0,0,0,0,0,0,0,0
+132,Lexicality,ConsonantString,Localizer,mzfkvck,7,Mismatch,,tzfkvck,7,0,0,0,0,0,0,0,0,0,0,0,0,0
+133,Lexicality,ConsonantString,Localizer,gfdzxwj,7,Match,,gfdzxwj,7,0,0,0,0,0,0,0,0,0,0,0,0,0
+134,Lexicality,ConsonantString,Localizer,rmyhrfh,7,Mismatch,,rmykrfh,7,0,0,0,0,0,0,0,0,0,0,0,0,0
+135,Lexicality,ConsonantString,Localizer,dthfsyp,7,Match,,dthfsyp,7,0,0,0,0,0,0,0,0,0,0,0,0,0
+136,Lexicality,ConsonantString,Localizer,wjxrk,5,Match,,tjxrk,5,0,0,0,0,0,0,0,0,0,0,0,0,0
+137,Lexicality,ConsonantString,Localizer,gdxwpsp,7,Mismatch,,gdxwpsp,7,0,0,0,0,0,0,0,0,0,0,0,0,0
+138,Lexicality,ConsonantString,Localizer,gtrzxmc,7,Mismatch,,gtrzxmc,7,0,0,0,0,0,0,0,0,0,0,0,0,0
+139,Lexicality,ConsonantString,Localizer,xqpkbcj,7,Match,,bqpkbcj,7,0,0,0,0,0,0,0,0,0,0,0,0,0
+140,Lexicality,ConsonantString,Localizer,yzxby,5,Mismatch,,yzxby,5,0,0,0,0,0,0,0,0,0,0,0,0,0
+141,Lexicality,ConsonantString,Localizer,cwxbz,5,Match,,cwxbt,5,0,0,0,0,0,0,0,0,0,0,0,0,0
+142,Lexicality,ConsonantString,Localizer,gyvks,5,Mismatch,,gyvks,5,0,0,0,0,0,0,0,0,0,0,0,0,0
+143,Lexicality,ConsonantString,Localizer,nvydn,5,Match,,pvydn,5,0,0,0,0,0,0,0,0,0,0,0,0,0
+144,Lexicality,ConsonantString,Localizer,kqsfc,5,Mismatch,,kqsfc,5,0,0,0,0,0,0,0,0,0,0,0,0,0
+145,Lexicality,ConsonantString,Localizer,cyvds,5,Match,,gyvds,5,0,0,0,0,0,0,0,0,0,0,0,0,0
+146,Lexicality,ConsonantString,Localizer,hbzmt,5,Mismatch,,hbzmt,5,0,0,0,0,0,0,0,0,0,0,0,0,0
+147,Lexicality,ConsonantString,Localizer,hkdfx,5,Match,,hkdfx,5,0,0,0,0,0,0,0,0,0,0,0,0,0
+148,Lexicality,ConsonantString,Localizer,lpdwzwv,7,Mismatch,,tpdwzwv,7,0,0,0,0,0,0,0,0,0,0,0,0,0
+149,Lexicality,ConsonantString,Localizer,vybwnpw,7,Match,,vybwnpw,7,0,0,0,0,0,0,0,0,0,0,0,0,0
+150,Lexicality,ConsonantString,Localizer,fnstsp,6,Mismatch,,qkstsp,6,0,0,0,0,0,0,0,0,0,0,0,0,0
