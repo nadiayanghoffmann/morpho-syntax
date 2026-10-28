@@ -498,7 +498,7 @@ Item,TestControl,StrucLevel,Spacing,Stim1,S1Length,Match,MismatchCol,Stim2,S2Len
 99,SSELocalizer,Phrase-Loc,Localizer,wheels turn,11,Match,,wheels turn,11,0.3166183669,30158,29402,11015,10.85864942,0,0,0,0,0,0,0,0
 99,SSELocalizer,List-Loc,Localizer,wheels cogs,11,Mismatch,2,wheels cars,11,0.4137261346,30158,28019,77,19.82122915,0,0,0,0,0,0,0,0
 100,SSELocalizer,Phrase-Loc,Localizer,doctors help,12,Mismatch,1,viruses help,12,0.4210853517,27282,34359,30,12.08690113,0,0,0,0,0,0,0,0
-100,SSELocalizer,Word,Localizer,doctors pens,12,Match,,doctors pens,12,0.1395887326,27282,26403,20,19.4146398,0,0,0,0,0,0,0,0
+100,SSELocalizer,List-Loc,Localizer,doctors pens,12,Match,,doctors pens,12,0.1395887326,27282,26403,20,19.4146398,0,0,0,0,0,0,0,0
 101,Lexicality,Word,Localizer,cartoon,7,Match,,cartoon,7,0,0,0,0,0,2,2.3529,2,2.3529,2,2.3529,2,2.3529
 102,Lexicality,Word,Localizer,cloth,5,Mismatch,,sloth,5,0,0,0,0,0,5,2.4784,5,1.0235,3.0,3.634,3.0,4.3987
 103,Lexicality,Word,Localizer,monster,7,Match,,monster,7,0,0,0,0,0,4,6.2892,3,4.0131,4,6.2892,3,4.0131

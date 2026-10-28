@@ -41,7 +41,7 @@ from port_open_send import sendTrigger, get_condition_channels, TRIGGER_MAP_12, 
 
 # PsychoPy imports
 try:
-    from psychopy import visual, core, event, gui
+    from psychopy import visual, core, event, gui  # type: ignore
     PSYCHOPY_AVAILABLE = True
 except ImportError:
     PSYCHOPY_AVAILABLE = False
@@ -63,8 +63,8 @@ def load_and_prepare_stimuli(csv_path):
     # 2 SSELocalizer conditions: Phrase-Loc and List-Loc
     sse_mask = (df['TestControl'] == 'SSELocalizer') & (df['StrucLevel'].isin(['Phrase-Loc', 'List-Loc']))
 
-    # 2 Lexicality conditions: Word and Pseudoword
-    lex_mask = (df['TestControl'] == 'Lexicality') & (df['StrucLevel'].isin(['Word', 'Pseudoword']))
+    # 3 Lexicality conditions: Word, Pseudoword, and ConsonantString
+    lex_mask = (df['TestControl'] == 'Lexicality') & (df['StrucLevel'].isin(['Word', 'Pseudoword', 'ConsonantString']))
 
     filtered = df[crit_mask | sse_mask | lex_mask].copy()
 

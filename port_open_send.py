@@ -26,11 +26,12 @@ Critical Conditions (8):
   7. List  × Compound × Space   → [ch161, ch163]                (mask: 0x0A = 10)
   8. List  × Compound × Nospace → [ch163]                       (mask: 0x08 = 8)
 
-Localizer Conditions (4):
-  9.  SSELocalizer × Phrase-Loc  → [ch160, ch164]               (mask: 0x11 = 17)
-  10. SSELocalizer × List-Loc    → [ch164]                      (mask: 0x10 = 16)
-  11. Lexicality   × Word        → [ch165]                      (mask: 0x20 = 32)
-  12. Lexicality   × Pseudoword  → [ch166]                      (mask: 0x40 = 64)
+Localizer Conditions (5):
+  9.  SSELocalizer × Phrase-Loc       → [ch160, ch164]          (mask: 0x11 = 17)
+  10. SSELocalizer × List-Loc         → [ch164]                 (mask: 0x10 = 16)
+  11. Lexicality   × Word             → [ch165]                 (mask: 0x20 = 32)
+  12. Lexicality   × Pseudoword       → [ch166]                 (mask: 0x40 = 64)
+  13. Lexicality   × ConsonantString  → [ch165, ch166]          (mask: 0x60 = 96)
 """
 
 import time
@@ -65,14 +66,17 @@ TRIGGER_MAP_12 = {
     ('List', 'Compound', 'Space'):      ['ch161', 'ch163'],
     ('List', 'Compound', 'Nospace'):    ['ch163'],
 
-    # 4 Localizer conditions
-    ('SSELocalizer', 'Phrase-Loc', 'Localizer'): ['ch160', 'ch164'],
-    ('SSELocalizer', 'List-Loc', 'Localizer'):   ['ch164'],
-    ('Lexicality', 'Word', 'Localizer'):         ['ch165'],
-    ('Lexicality', 'Pseudoword', 'Localizer'):   ['ch166'],
+    # 5 Localizer conditions
+    ('SSELocalizer', 'Phrase-Loc', 'Localizer'):       ['ch160', 'ch164'],
+    ('SSELocalizer', 'List-Loc', 'Localizer'):         ['ch164'],
+    ('Lexicality', 'Word', 'Localizer'):               ['ch165'],
+    ('Lexicality', 'Pseudoword', 'Localizer'):         ['ch166'],
+    ('Lexicality', 'ConsonantString', 'Localizer'):    ['ch165', 'ch166'],
 }
 
-# Condition display labels and IDs 1 to 12
+TRIGGER_MAP_13 = TRIGGER_MAP_12
+
+# Condition display labels and IDs 1 to 13
 CONDITION_INFO_12 = {
     1:  {'key': ('Comp', 'Phrase', 'Space'),        'label': 'Comp Phrase Space',     'channels': ['ch160', 'ch161', 'ch162', 'ch163']},
     2:  {'key': ('Comp', 'Phrase', 'Nospace'),      'label': 'Comp Phrase Nospace',   'channels': ['ch160', 'ch162', 'ch163']},
@@ -82,11 +86,13 @@ CONDITION_INFO_12 = {
     6:  {'key': ('List', 'Phrase', 'Nospace'),      'label': 'List Phrase Nospace',   'channels': ['ch160', 'ch163']},
     7:  {'key': ('List', 'Compound', 'Space'),      'label': 'List Compound Space',   'channels': ['ch161', 'ch163']},
     8:  {'key': ('List', 'Compound', 'Nospace'),    'label': 'List Compound Nospace', 'channels': ['ch163']},
-    9:  {'key': ('SSELocalizer', 'Phrase-Loc', 'Localizer'), 'label': 'SSELoc Phrase',  'channels': ['ch160', 'ch164']},
-    10: {'key': ('SSELocalizer', 'List-Loc', 'Localizer'),   'label': 'SSELoc List',    'channels': ['ch164']},
-    11: {'key': ('Lexicality', 'Word', 'Localizer'),         'label': 'Lex Word',       'channels': ['ch165']},
-    12: {'key': ('Lexicality', 'Pseudoword', 'Localizer'),   'label': 'Lex Pseudoword', 'channels': ['ch166']},
+    9:  {'key': ('SSELocalizer', 'Phrase-Loc', 'Localizer'),    'label': 'SSELoc Phrase',       'channels': ['ch160', 'ch164']},
+    10: {'key': ('SSELocalizer', 'List-Loc', 'Localizer'),      'label': 'SSELoc List',         'channels': ['ch164']},
+    11: {'key': ('Lexicality', 'Word', 'Localizer'),            'label': 'Lex Word',            'channels': ['ch165']},
+    12: {'key': ('Lexicality', 'Pseudoword', 'Localizer'),      'label': 'Lex Pseudoword',      'channels': ['ch166']},
+    13: {'key': ('Lexicality', 'ConsonantString', 'Localizer'), 'label': 'Lex ConsonantString', 'channels': ['ch165', 'ch166']},
 }
+CONDITION_INFO_13 = CONDITION_INFO_12
 
 
 def channels_to_mask(channels):
@@ -117,6 +123,8 @@ def get_condition_channels(test_control, struc_level, spacing):
             return ['ch165']
         if struc_level in ('Pseudoword', 'Nonword'):
             return ['ch166']
+        if struc_level in ('ConsonantString', 'Consonant String', 'consonant string'):
+            return ['ch165', 'ch166']
     # Fallback for critical conditions
     channels = ['ch163']
     if 'Phrase' in struc_level:
