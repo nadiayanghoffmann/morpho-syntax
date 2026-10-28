@@ -117,6 +117,9 @@ venv.bak/
 # Experiment runtime logs
 logs/
 
+# Output of tools/dry_run.py (fake participants)
+dry_run/
+
 
 # Spyder project settings
 .spyderproject

@@ -1,5 +1,5 @@
 """
-unknown_words.py
+morpho_syntax.py
 ================
 MEG Experiment Script for Morpho-Syntax Noun Stimuli (13 Conditions, 650 Trials).
 Based on the PsychoPy unknown_words.py experiment structure and StimTracker port integration.
@@ -442,6 +442,7 @@ def run_meg_experiment():
     results = []
     trial_counter = (start_block - 1) * n_trials_per_block
     total_correct = 0
+    acc = 0.0
 
     for b_idx, block in enumerate(blocks, start=1):
         if b_idx < start_block:

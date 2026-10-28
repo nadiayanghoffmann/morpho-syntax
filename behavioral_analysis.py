@@ -23,6 +23,7 @@ Localizer Conditions:
   10. SSELocalizer × List-Loc   → [ch164]
   11. Lexicality   × Word       → [ch165]
   12. Lexicality   × Pseudoword → [ch166]
+  13. Lexicality   × ConsonantString → [ch165, ch166]
 
 Trigger Lines:
   • ch160: Phrase trigger line (active for Phrase conditions)
@@ -93,6 +94,7 @@ COND_ORDER_12 = [
     "SSELoc_List",
     "Lex_Word",
     "Lex_Pseudoword",
+    "Lex_ConsonantString",
 ]
 
 COND_LABELS_12 = {
@@ -108,6 +110,7 @@ COND_LABELS_12 = {
     "SSELoc_List":           "SSELoc List\n[164]",
     "Lex_Word":              "Lex Word\n[165]",
     "Lex_Pseudoword":        "Lex Pseudo\n[166]",
+    "Lex_ConsonantString":   "Lex Consonant\n[165,166]",
 }
 
 COND_COLORS = {
@@ -123,6 +126,16 @@ COND_COLORS = {
     "SSELoc_List":           "#8B572A",
     "Lex_Word":              "#17BECF",
     "Lex_Pseudoword":        "#BCBD22",
+    "Lex_ConsonantString":   "#7F7F7F",
+}
+
+# morpho_syntax.py log column → name used in this script
+LOG_COLUMN_RENAMES = {
+    'Participant':       'participant_id',
+    'Participant_Resp':  'pressed_key',
+    'Expected_Response': 'expected_key',
+    'Correct':           'is_correct',
+    'RT_s':              'rt_s',
 }
 
 SDT_COLORS = {
@@ -150,7 +163,11 @@ def map_row_to_condition(tc, sl, sp):
     elif tc == 'SSELocalizer':
         return 'SSELoc_Phrase' if 'Phrase' in sl else 'SSELoc_List'
     elif tc == 'Lexicality':
-        return 'Lex_Word' if sl == 'Word' else 'Lex_Pseudoword'
+        if sl == 'Word':
+            return 'Lex_Word'
+        if sl == 'ConsonantString':
+            return 'Lex_ConsonantString'
+        return 'Lex_Pseudoword'
     return 'Unknown'
 
 
@@ -162,7 +179,7 @@ def load_stimuli_catalog():
 
     crit = df['TestControl'].isin(['Comp', 'List'])
     sse  = (df['TestControl'] == 'SSELocalizer') & (df['StrucLevel'].isin(['Phrase-Loc', 'List-Loc']))
-    lex  = (df['TestControl'] == 'Lexicality') & (df['StrucLevel'].isin(['Word', 'Pseudoword']))
+    lex  = (df['TestControl'] == 'Lexicality') & (df['StrucLevel'].isin(['Word', 'Pseudoword', 'ConsonantString']))
     df = df[crit | sse | lex].copy()
 
     df['Condition'] = [
@@ -191,9 +208,14 @@ def load_all_behavioral_data():
         print(f"  Found {len(log_files)} participant log files.")
         dfs = []
         for f in log_files:
-            sub_df = pd.read_csv(f)
+            # Keys must stay strings ('1'/'2'); pandas would otherwise read them as numbers
+            sub_df = pd.read_csv(f, dtype={'Participant_Resp': str, 'Expected_Response': str})
             dfs.append(sub_df)
-        df = pd.concat(dfs, ignore_index=True)
+        df = pd.concat(dfs, ignore_index=True).rename(columns=LOG_COLUMN_RENAMES)
+        df['Condition'] = [
+            map_row_to_condition(r['TestControl'], r['StrucLevel'], r['Spacing'])
+            for _, r in df.iterrows()
+        ]
     else:
         print("  No participant session logs found in logs/ or data/. Generating baseline N=20 demonstration data...")
         stim_catalog = load_stimuli_catalog()
@@ -215,6 +237,7 @@ def load_all_behavioral_data():
             'SSELoc_List':           (0.94, 0.59),
             'Lex_Word':              (0.97, 0.52),
             'Lex_Pseudoword':        (0.92, 0.63),
+            'Lex_ConsonantString':   (0.97, 0.50),
         }
 
         for sub_i in range(1, n_subs + 1):
@@ -498,7 +521,7 @@ def plot_all_12_conditions_matrix(df, rt_df, out_filename):
 
     # Bar charts
     for ax, means, ses, title, ylabel, is_pct in [
-        (ax_ab, means_acc, ses_acc, "Accuracy by Condition (12 Conditions)", "Accuracy", True),
+        (ax_ab, means_acc, ses_acc, f"Accuracy by Condition ({n} Conditions)", "Accuracy", True),
         (ax_rb, means_rt,  ses_rt,  "Reaction Time by Condition (0.1–2.0 s)", "Mean RT (s)", False),
     ]:
         ax.bar(x, means, yerr=ses, capsize=4, color=bar_cols, alpha=0.88, edgecolor='black', width=0.65)
@@ -560,7 +583,7 @@ def plot_all_12_conditions_matrix(df, rt_df, out_filename):
     draw_matrix(ax_am, pmat_acc, "Pairwise Accuracy Comparisons (Welch t-tests, FDR–BH)")
     draw_matrix(ax_rm, pmat_rt,  "Pairwise RT Comparisons (Welch t-tests, FDR–BH)")
 
-    fig.suptitle("All 12 Stimulus Conditions — Accuracy & RT with Pairwise Significance Matrices",
+    fig.suptitle(f"All {n} Stimulus Conditions — Accuracy & RT with Pairwise Significance Matrices",
                  fontsize=12, fontweight='bold', y=1.01)
 
     path = os.path.join(FIGURES_DIR, out_filename)
@@ -589,7 +612,7 @@ def plot_response_summary_table(df, out_filename):
         ax.set_yticks(range(len(conds)))
         ax.set_yticklabels([c.replace('_', ' ') for c in conds], fontsize=8.5)
         ax.set_xlabel("Rate")
-        ax.set_title(f"{rt} Rate across 12 Conditions", fontweight='bold')
+        ax.set_title(f"{rt} Rate across {len(conds)} Conditions", fontweight='bold')
         ax.xaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f"{v*100:.0f}%"))
         ax.grid(axis='x', alpha=0.3)
         for b, v in zip(bars, vals):
@@ -606,7 +629,7 @@ def plot_response_summary_table(df, out_filename):
 # ── 4. Main Execution ─────────────────────────────────────────────────────────
 def main():
     print("=" * 70)
-    print("  Morpho-Syntax Behavioral Analysis (12 Conditions & Triggers)")
+    print("  Morpho-Syntax Behavioral Analysis (13 Conditions & Triggers)")
     print("=" * 70)
 
     # 1. Load data
@@ -621,7 +644,7 @@ def main():
     print(f"  Participants  : {n_subs}")
     print(f"  Total trials  : {n_trials:,}")
     print(f"  Trials in RT  : {n_rt:,} ({100*n_rt/n_trials:.1f}%)")
-    print(f"  Conditions represented : {df['Condition'].nunique()} / 12")
+    print(f"  Conditions represented : {df['Condition'].nunique()} / {len(COND_ORDER_12)}")
 
     # 2. Save trial-level processed CSV
     trial_csv = os.path.join(ANALYSIS_DIR, "trial_level_data.csv")
